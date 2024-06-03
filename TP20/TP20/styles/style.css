@@ -21,7 +21,7 @@ ul {
     left: 8 em;
     margin: 0;padding: 0;
     text-align: center;
-    background-color: rgb(230, 127, 16);}
+    background-color: rgb(244, 241, 238);}
 }
 .listeChoix {display: none;}
 .fleche {display:none;}
@@ -48,7 +48,7 @@ float: left;}
 aside {
   position: absolute;
   width: 130 px;
-  background-color: #d4dfe3;
+  background-color: #f6fafb;
   bottom: 0px;
   top: 0px;
 }
@@ -62,20 +62,19 @@ bottom: -1em;
 .choixParmis {
   position:relative;
   width: 23em;
+  background-color: #e53109;
 }
 
 #menuDeroulant {
 position: sticky;
 }
 
-.choixParmis{
-  background-color: #c61135;
-}
+
 
 li {
 position: relative;
 background-color: #d4dfe3;
-height: 3em;
 margin: 0px;
-padding: 0px;
+padding-top: 7px;
+padding-bottom: 7px;
 }
