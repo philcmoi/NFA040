@@ -1,0 +1,57 @@
+p {
+  color: black;
+}
+ul {
+  list-style-type: none;
+}
+
+.sousMenueDeroulant:hover {
+  box-sizing: border-box;
+  width: 100px;
+  
+  margin: 0;padding: 0;
+  .fleche {display: inline;float: left};
+  .fleche2 {display: none;float: left};
+  .generalite {
+    position: relative;
+    position: relative;
+left: 0em;
+bottom: -1em;
+    }
+  .listeChoix {display: inline-block;
+    width: 19em;
+    left: 8 em;
+    margin: 0;padding: 0;
+    text-align: center;
+    background-color: rgb(230, 127, 16);}
+}
+.listeChoix {display: none;}
+.fleche {display:none;}
+.fleche2 {display: inline-block;float: left;}
+
+
+.changer:before {
+  content:"DEPLIER" ;
+}
+
+.changer:hover:before .menue.sousMenueDeroulant.listeChoix {
+  content: "REPLIER";
+  visibility: visible;
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+  .menue.sousMenueDeroulant.listeChoix visibility
+}
+
+
+.generalite {
+position: relative;
+left: 0em;
+bottom: -1em;
+}
+
+.choixParmis {
+  position:relative;
+  width: 23em;
+}
+
