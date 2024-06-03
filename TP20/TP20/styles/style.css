@@ -8,12 +8,10 @@ ul {
 .sousMenueDeroulant:hover {
   box-sizing: border-box;
   width: 100px;
-  
   margin: 0;padding: 0;
   .fleche {display: inline;float: left};
   .fleche2 {display: none;float: left};
   .generalite {
-    position: relative;
     position: relative;
   left: 0em;
   bottom: -1em;
@@ -27,28 +25,34 @@ ul {
 }
 .listeChoix {display: none;}
 .fleche {display:none;}
-.fleche2 {display: inline-block;float: left;}
+.fleche2 {display: inline-block;
+float: left;}
 
-.changer:hover::after
- {
-  content:"REPLIER";
-  .sousMenueDeroulant, .sousMenueDeroulant ul{
-    display:block;}
-
-    .sousMenueDeroulant:not(:target) + ul{
-      display: block;
-      position: absolute;
-      top: 0;
-      padding: 0;
-      z-index: 1000;} 
-}
-
-
-.changer::after{
+#changer::after{
   content:"DEPLIER" ;
     }
-  
 
+#changer:hover::after {
+  content:"REPLIER";
+  .menuDeroulant {display:block ;}; 
+  .sousMenueDeroulant {display: block;};
+  .listeChoix {display: block;};
+}
+
+#changer:target {
+  #menuDeroulant {display:block ;}; 
+  .sousMenueDeroulant {display: block;};
+  .listeChoix {display: block;};
+}
+
+aside {
+  position: absolute;
+  width: 130 px;
+  background-color: #d4dfe3;
+  bottom: 0px;
+  top: 0px;
+}
+  
 .generalite {
 position: relative;
 left: 0em;
@@ -60,12 +64,18 @@ bottom: -1em;
   width: 23em;
 }
 
-/* .sousMenueDeroulant, .sousMenueDeroulant ul{
-  display:block;}
+#menuDeroulant {
+position: sticky;
+}
 
-.sousMenueDeroulant:not(:target) + ul{
-    display: block;
-    position: absolute;
-    top: 0;
-    padding: 0;
-    z-index: 1000;} */
+.choixParmis{
+  background-color: #c61135;
+}
+
+li {
+position: relative;
+background-color: #d4dfe3;
+height: 3em;
+margin: 0px;
+padding: 0px;
+}
