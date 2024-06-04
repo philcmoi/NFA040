@@ -8,50 +8,91 @@ ul {
 .sousMenueDeroulant:hover {
   box-sizing: border-box;
   width: 100px;
-  
   margin: 0;padding: 0;
+  background-color: #600014;
   .fleche {display: inline;float: left};
   .fleche2 {display: none;float: left};
   .generalite {
     position: relative;
-    position: relative;
-left: 0em;
-bottom: -1em;
+  left: 0em;
+  bottom: .5em;
     }
+
+  .choixParmis {
+    background-color: #cb2b38;
+    position:relative;
+  width: 15em;height: 3em;
+  border: 2px;
+  border-radius: 15px;
+  }
+
   .listeChoix {display: inline-block;
-    width: 19em;
+    width: 12.2em;
     left: 8 em;
     margin: 0;padding: 0;
     text-align: center;
-    background-color: rgb(230, 127, 16);}
+    background-color: rgb(73, 5, 30);}
 }
 .listeChoix {display: none;}
 .fleche {display:none;}
-.fleche2 {display: inline-block;float: left;}
+.fleche2 {display: inline-block;
+float: left;}
 
-
-.changer:before {
+#changer::after{
   content:"DEPLIER" ;
+    }
+
+#changer:hover::after {
+  content:"REPLIER";
+  #menuDeroulant {display:block ;}; 
+  .sousMenueDeroulant {display: block;};
+  .listeChoix {display: block;};
 }
 
-.changer:hover:before .menue.sousMenueDeroulant.listeChoix {
-  content: "REPLIER";
-  visibility: visible;
-  text-indent: 0;
-  display: block;
-  line-height: initial;
-  .menue.sousMenueDeroulant.listeChoix visibility
+#changer:target {
+  #menuDeroulant {display:block ;}; 
+  .sousMenueDeroulant {display: block;};
+  .listeChoix {display: block;};
 }
 
-
+aside {
+  position: absolute;
+  width: 130 px;
+  background-color: #f6fafb;
+  bottom: 0px;
+  top: 0px;
+}
+  
 .generalite {
 position: relative;
 left: 0em;
-bottom: -1em;
+bottom: 0.8em;
 }
 
 .choixParmis {
   position:relative;
-  width: 23em;
+  width: 15em;height: 3em;
+  background-color: #f6f0ee;
+  border: 2px;
+  border-radius: 15px;
 }
 
+#menuDeroulant {
+position: sticky;
+}
+
+.sousMenueDeroulant {
+  background-color: #B10020;
+  border: 2px;
+  border-radius: 15px;
+}
+
+li {
+position: relative;
+background-color: #f6f0ee;
+margin: 0px;
+padding-top: 7px;
+padding-bottom: 7px;
+border: 5px;
+border-radius: 5px;
+}
