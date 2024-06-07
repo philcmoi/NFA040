@@ -74,7 +74,7 @@ aside {
   width: 130 px;
   background-color: #F8F9FA;
   bottom: 0px;
-  top: 10em;
+  top: 5em;
 }
 
 body {
@@ -114,7 +114,7 @@ li {
 
 #menuDeroulant {
   left: 0px;
-  top: 30em;
+  top: 10em;
   position: sticky;
 }
 
@@ -127,9 +127,23 @@ li {
 }
 
 
-#menueEntete li {
+.entetelisteChoix li {
   float: left;
   position: left;
-  left: 15em;
-  width: 20%;
+  left: 0em;
+  right: 0em;
+  width: 25%;
+  height: 3em;
+  text-align: justify;
+  background-color: #A82430;
+  text-align: center;
+  color: #ffffff;
 }
+
+
+
+
+.entetelisteChoix li a {
+  color: #ffffff;}
+  
+  
