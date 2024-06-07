@@ -31,11 +31,13 @@ ul {
     position: relative;
     left: 0em;
     bottom: 0.5em;
+    color: #ffffff;
   }
 
   .choixParmis {
-    background-color: #ffffff;
+    background-color: #A82430;
     position: relative;
+    text-align: left;
     width: 15em;
     height: 3em;
     border: 2px;
@@ -91,18 +93,13 @@ body {
 .choixParmis {
   background-color: #ffffff;
   position: relative;
+  text-align: left;
   width: 15em;
   height: 3em;
   border: 2px;
   border-radius: 2px;
 }
 
-/* .sousMenueDeroulant {
-  background-color: #000000;
-  border: 2px;
-  border-radius: 15px;
-  position: sticky;
-} */
 
 li {
   position: relative;
