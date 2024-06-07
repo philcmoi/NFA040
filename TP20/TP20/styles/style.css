@@ -1,6 +1,7 @@
 p {
   color: black;
 }
+
 ul {
   list-style-type: none;
 }
@@ -8,35 +9,63 @@ ul {
 .sousMenueDeroulant:hover {
   box-sizing: border-box;
   width: 100px;
-  margin: 0;padding: 0;
+  margin: 0;
+  padding: 0;
   background-color: #600014;
-  .fleche {display: inline;float: left};
-  .fleche2 {display: none;float: left};
+
+  .fleche {
+    display: inline;
+    float: left
+  }
+
+  ;
+
+  .fleche2 {
+    display: none;
+    float: left
+  }
+
+  ;
+
   .generalite {
     position: relative;
-  left: 0em;
-  bottom: 0.5em;
-    }
+    left: 0em;
+    bottom: 0.5em;
+  }
 
   .choixParmis {
     background-color: #ffffff;
-    position:relative;
-  width: 15em;height: 3em;
-  border: 2px;
-  border-radius: 15px;
+    position: relative;
+    width: 15em;
+    height: 3em;
+    border: 2px;
+    border-radius: 2px;
   }
 
-  .listeChoix {display: block;
+  .listeChoix {
+    display: block;
     width: 12.2em;
     left: 5 em;
-    margin: 0;padding: 0;
+    margin: 0;
+    padding: 0;
     text-align: left;
-    background-color: rgb(255, 255, 255);}
+    background-color: rgb(255, 255, 255);
+  }
 }
-.listeChoix {display: none;}
-.fleche {display:none;}
-.fleche2 {display: inline-block;
-float: left;}
+
+
+.listeChoix {
+  display: none;
+}
+
+.fleche {
+  display: none;
+}
+
+.fleche2 {
+  display: inline-block;
+  float: left;
+}
 
 aside {
   position: absolute;
@@ -45,44 +74,45 @@ aside {
   bottom: 0px;
   top: 10em;
 }
-  
+
 body {
   background-color: #f6fafb;
 }
 
 .generalite {
-position: relative;
-left: 0em;
-bottom: 0.5em;
-color: #030304;
-/* background-color: #fbfbfb; */
+  position: relative;
+  left: 0em;
+  bottom: 0.5em;
+  color: #030304;
+  /* background-color: #fbfbfb; */
 }
+
 
 .choixParmis {
+  background-color: #ffffff;
   position: relative;
-  width: 15em;height: 3em;
-  background-color: #f6f0ee;
+  width: 15em;
+  height: 3em;
   border: 2px;
-  border-radius: 15px;
+  border-radius: 2px;
 }
 
-
-.sousMenueDeroulant {
-  background-color: #B10020;
+/* .sousMenueDeroulant {
+  background-color: #000000;
   border: 2px;
   border-radius: 15px;
   position: sticky;
-}
+} */
 
 li {
-position: relative;
-background-color: #fbfbfb;
-margin: 0px;
-padding-top: 7px;
-padding-bottom: 7px;
-border: 10px;
-border-color: rgb(14, 14, 14);
-border-radius: 5px;
+  position: relative;
+  background-color: #fbfbfb;
+  margin: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 10px;
+  border-color: rgb(14, 14, 14);
+  border-radius: 5px;
 }
 
 #menuDeroulant {
@@ -92,18 +122,17 @@ border-radius: 5px;
 }
 
 #menueEntete {
-width: 100%;
-margin:0 auto;
-background-color: #cb2b38;
-position: sticky;
-top:0px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #cb2b38;
+  position: sticky;
+  top: 0px;
 }
 
 
-#menueEntete li{
+#menueEntete li {
   float: left;
   position: left;
   left: 15em;
   width: 20%;
 }
-
