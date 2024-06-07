@@ -15,84 +15,95 @@ ul {
   .generalite {
     position: relative;
   left: 0em;
-  bottom: .5em;
+  bottom: 0.5em;
     }
 
   .choixParmis {
-    background-color: #cb2b38;
+    background-color: #ffffff;
     position:relative;
   width: 15em;height: 3em;
   border: 2px;
   border-radius: 15px;
   }
 
-  .listeChoix {display: inline-block;
+  .listeChoix {display: block;
     width: 12.2em;
-    left: 8 em;
+    left: 5 em;
     margin: 0;padding: 0;
-    text-align: center;
-    background-color: rgb(73, 5, 30);}
+    text-align: left;
+    background-color: rgb(255, 255, 255);}
 }
 .listeChoix {display: none;}
 .fleche {display:none;}
 .fleche2 {display: inline-block;
 float: left;}
 
-#changer::after{
-  content:"DEPLIER" ;
-    }
-
-#changer:hover::after {
-  content:"REPLIER";
-  #menuDeroulant {display:block ;}; 
-  .sousMenueDeroulant {display: block;};
-  .listeChoix {display: block;};
-}
-
-#changer:target {
-  #menuDeroulant {display:block ;}; 
-  .sousMenueDeroulant {display: block;};
-  .listeChoix {display: block;};
-}
-
 aside {
   position: absolute;
   width: 130 px;
-  background-color: #f6fafb;
+  background-color: #F8F9FA;
   bottom: 0px;
-  top: 0px;
+  top: 10em;
 }
   
+body {
+  background-color: #f6fafb;
+}
+
 .generalite {
 position: relative;
 left: 0em;
-bottom: 0.8em;
+bottom: 0.5em;
+color: #030304;
+/* background-color: #fbfbfb; */
 }
 
 .choixParmis {
-  position:relative;
+  position: relative;
   width: 15em;height: 3em;
   background-color: #f6f0ee;
   border: 2px;
   border-radius: 15px;
 }
 
-#menuDeroulant {
-position: sticky;
-}
 
 .sousMenueDeroulant {
   background-color: #B10020;
   border: 2px;
   border-radius: 15px;
+  position: sticky;
 }
 
 li {
 position: relative;
-background-color: #f6f0ee;
+background-color: #fbfbfb;
 margin: 0px;
 padding-top: 7px;
 padding-bottom: 7px;
-border: 5px;
+border: 10px;
+border-color: rgb(14, 14, 14);
 border-radius: 5px;
 }
+
+#menuDeroulant {
+  left: 0px;
+  top: 30em;
+  position: sticky;
+}
+
+#menueEntete {
+width: 100%;
+margin:0 auto;
+background-color: #cb2b38;
+position: sticky;
+top:0px;
+}
+
+
+#menueEntete li{
+  float: left;
+  position: left;
+  left: 15em;
+  width: 20%;
+}
+
