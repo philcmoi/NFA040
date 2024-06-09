@@ -23,7 +23,7 @@ ul {
     float: left
   }
 
-  ;
+  
 
   .generalite {
     position: relative;
@@ -80,9 +80,10 @@ ul {
   background-color: #ffffff;
 }
 
-aside {
+
+#menueDeroulant {
   position: sticky;
-  width: 50 px;
+  width: 12em;
   background-color: #b4bacf;
   top: 10em;
   right: 150em;
@@ -124,11 +125,3 @@ li {
   border-color: rgb(14, 14, 14);
   border-radius: 5px;
 }
-
-
-
-
-
-
-
-  

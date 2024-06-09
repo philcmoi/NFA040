@@ -85,7 +85,7 @@ ul {
     .barreHorizontal2 {
       text-align: left;
       left: 0; 
-      width: 100%;
+      width: 85em;
       height: 3em;
       top: 5em;
       text-align: right;
@@ -128,10 +128,10 @@ ul {
     position: sticky;
     top: 0px;
     height: 4em;
-    width: 70em;
-  }
+    width: 85em;  }
   
   #menueEntete2 {
     position: sticky;
     top: 5em;
+    width: 85em;
   }
