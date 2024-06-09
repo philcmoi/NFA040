@@ -18,7 +18,7 @@ ul {
   position: sticky;
   top: 0px;
   height: 4em;
-  width: 63em;
+  width: 77em;
 }
 
 .barreHorizontal li {
@@ -34,13 +34,13 @@ ul {
   #menueEntete2 {
     position: sticky;
     top: 5em;
-    width: 60em;
+    width: 77em;
   }
 
   .barreHorizontal2 {
     text-align: left;
     left: 0; 
-    width: 100%;
+    width: 77em;
     height: 3em;
     top: 5em;
     text-align: right;
@@ -63,7 +63,7 @@ ul {
   .barreHorizontal {
     text-align: left;
     left: 0; 
-    width: 100%;
+    width: 77em;
     height: 3em;
     top: 5em;
     text-align: right;
@@ -85,7 +85,7 @@ ul {
     .barreHorizontal2 {
       text-align: left;
       left: 0; 
-      width: 85em;
+      width: 77em;
       height: 3em;
       top: 5em;
       text-align: right;
@@ -128,10 +128,10 @@ ul {
     position: sticky;
     top: 0px;
     height: 4em;
-    width: 85em;  }
+    width: 77em;  }
   
   #menueEntete2 {
     position: sticky;
     top: 5em;
-    width: 85em;
+    width: 77em;
   }
