@@ -5,16 +5,10 @@ p {
 ul {
   list-style-type: none;
 }
-#menuDeroulant {
-  position: sticky;
-  top: 12em;
-  left: 0px;
-  width: 40px;
-}
+
 .sousMenueDeroulant:hover {
-  /* position: sticky; */
   box-sizing: border-box;
-  width: 40px;
+  width: 100px;
   margin: 0;
   padding: 0;
   background-color: #ffffff;
@@ -29,15 +23,16 @@ ul {
     float: left
   }
 
+  ;
+
   .generalite {
     position: relative;
     left: 0em;
     bottom: 0.5em;
-    color: #030304;
-    background-color: #fbfbfb;
+    color: #ffffff;
   }
 
-    .choixParmis {
+  .choixParmis {
     background-color: #A82430;
     position: relative;
     text-align: left;
@@ -78,20 +73,33 @@ ul {
 }
 
 .sousMenueDeroulant {
-  position: sticky;
   box-sizing: border-box;
-  width: 40px;
+  width: 50px;
   margin: 0;
   padding: 0;
   background-color: #ffffff;
 }
 
+aside {
+  position: sticky;
+  width: 50 px;
+  background-color: #b4bacf;
+  top: 10em;
+  right: 150em;
+  /* bottom: 150em; */
+}
+
+
+body {
+  background-color: #f6fafb;
+}
 
 .generalite {
   position: relative;
   left: 0em;
   bottom: 0.5em;
   color: #030304;
+  /* background-color: #fbfbfb; */
 }
 
 
@@ -118,15 +126,9 @@ li {
 }
 
 
-.choixParmis {
-  background-color: #ffffff;
-  position: relative;
-  text-align: left;
-  width: 15em;
-  height: 3em;
-  border: 2px;
-  border-radius: 2px;
-}
+
+
+
 
 
   
