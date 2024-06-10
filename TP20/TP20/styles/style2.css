@@ -6,9 +6,30 @@ ul {
   list-style-type: none;
 }
 
+aside {
+  position: sticky;
+  top: 10em; 
+  width: 50 px;
+} 
+
+#menuDeroulant {
+  position: sticky;
+  width: 50 px;
+  left: 0px;
+  background-color: #b4bacf;
+  top: 10em;
+}
+
+.sousMenueDeroulant {
+  box-sizing: border-box;
+  width: 50px;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;}
+
 .sousMenueDeroulant:hover {
   box-sizing: border-box;
-  width: 100px;
+  width: 50px;
   margin: 0;
   padding: 0;
   background-color: #ffffff;
@@ -20,19 +41,11 @@ ul {
 
   .fleche2 {
     display: none;
-    float: left
+    
   }
 
-  ;
-
-  .generalite {
-    position: relative;
-    left: 0em;
-    bottom: 0.5em;
-    color: #ffffff;
-  }
-
-  .choixParmis {
+  
+.choixParmis {
     background-color: #A82430;
     position: relative;
     text-align: left;
@@ -72,24 +85,6 @@ ul {
   float: left;
 }
 
-.sousMenueDeroulant {
-  box-sizing: border-box;
-  width: 100px;
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-}
-
-aside {
-  position: sticky;
-  width: 50 px;
-  background-color: #b4bacf;
-  top: 10em;
-  right: 150em;
-  /* bottom: 150em; */
-}
-
-
 body {
   background-color: #f6fafb;
 }
@@ -115,7 +110,6 @@ body {
 
 
 li {
-  position: relative;
   background-color: #fbfbfb;
   margin: 0px;
   padding-top: 7px;
@@ -125,10 +119,3 @@ li {
   border-radius: 5px;
 }
 
-
-
-
-
-
-
-  
