@@ -21,7 +21,7 @@
   position: absolute;
 }
 
-#menueEntete .barreHorizontal #accesDirect #sousMenu:hover {
+.barreHorizontal #accesDirect:hover {
 
 #sousMenu {
     display: block;
