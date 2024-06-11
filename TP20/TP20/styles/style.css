@@ -1,3 +1,4 @@
+
 .barreHorizontal {
   text-align: left;
   left: 0; 
@@ -8,39 +9,13 @@
 
 .barreHorizontal li {
   float: left;
-  position: relative;
   background-color: #A82430;
+  position: relative;
 }
 
 .barreHorizontal li a {
   color:#ffffff;
 }
-
-#sousMenu {
-  display: none;
-  position: absolute;
-}
-
-.barreHorizontal #accesDirect:hover {
-
-#sousMenu {
-    display: block;
-  }
-}
-
-#menueEntete {
-margin: 0;
-padding: 0;
-background-color: #A82430;
-color: #ffffff;
-position: sticky;
-top: 0px;
-height: 4em;
-width: 70em;
-}
-
-
-
 
   .barreHorizontal2 {
     text-align: left;
@@ -54,11 +29,34 @@ width: 70em;
 
   .barreHorizontal2 li {
     float: left;
+    position: relative;
   }
 
   .barreHorizontal2 li a{
     color: #A82430;
   }
+  
+  #sousMenu {
+    display: none;
+  }
+
+  .barreHorizontal #accesDirect:hover {
+  #sousMenu {
+    position: absolute;
+    display: block;
+    }
+  }
+
+ #menueEntete {
+  margin: 0;
+  padding: 0;
+  background-color: #A82430;
+  color: #ffffff;
+  position: sticky;
+  top: 0px;
+  height: 4em;
+  width: 70em;
+}
 
 #menueEntete2 {
   position: sticky;
