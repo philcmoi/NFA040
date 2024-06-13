@@ -1,41 +1,21 @@
-body {
-  background-color: #f6fafb;
-}
 
-p {
-  color: black;
-}
-
-ul {
-  list-style-type: none;
-}
-
-#menueEntete {
-  margin: 0;
-  padding: 0;
-  background-color: #A82430;
-  color: #ffffff;
-  position: sticky;
-  top: 0px;
-  height: 4em;
-  width: 63em;
-}
+.barreHorizontal {
+  text-align: left;
+  left: 0; 
+  width: 100%;
+  height: 3em;
+  top: 5em;
+  text-align: center;}
 
 .barreHorizontal li {
   float: left;
   background-color: #A82430;
+  position: relative;
 }
 
 .barreHorizontal li a {
   color:#ffffff;
 }
-
-
-  #menueEntete2 {
-    position: sticky;
-    top: 5em;
-    width: 60em;
-  }
 
   .barreHorizontal2 {
     text-align: left;
@@ -49,89 +29,36 @@ ul {
 
   .barreHorizontal2 li {
     float: left;
+    position: relative;
   }
 
   .barreHorizontal2 li a{
     color: #A82430;
   }
   
-
-
-
-
-
-  .barreHorizontal {
-    text-align: left;
-    left: 0; 
-    width: 100%;
-    height: 3em;
-    top: 5em;
-    text-align: right;
-    /* color: #A82430; */
-    text-align: center;}
-  
-  .barreHorizontal li {
-    float: left;
-    background-color: #A82430;
+  #sousMenu {
+    display: none;
   }
-  
-  .barreHorizontal li a {
-    color:#ffffff;
-  }
-  
-  
-    
-  
-    .barreHorizontal2 {
-      text-align: left;
-      left: 0; 
-      width: 100%;
-      height: 3em;
-      top: 5em;
-      text-align: right;
-      /* color: #A82430; */
-      text-align: center;}
-  
-    .barreHorizontal2 li {
-      float: left;
+
+  .barreHorizontal #accesDirect:hover {
+  #sousMenu {
+    position: absolute;
+    display: block;
     }
-  
-    .barreHorizontal2 li a{
-      color: #A82430;
-    }
-    
-    
-    #accesdirectFin {
-      display: block;
-        top: 35em;
-        left: 50em;
-        background-color: #7d1414 ;
-    }
-  
-    .barreHorizontal li #accesDirest:hover {
-    #accesdirectFin {
-        display: none;
-      }
-    }
-  
-    #menuDeroulant {
-      position: sticky;
-      top: 12em;
-      left: 0px;
   }
-  
-  #menueEntete {
-    margin: 0;
-    padding: 0;
-    background-color: #A82430;
-    color: #ffffff;
-    position: sticky;
-    top: 0px;
-    height: 4em;
-    width: 70em;
-  }
-  
-  #menueEntete2 {
-    position: sticky;
-    top: 5em;
-  }
+
+ #menueEntete {
+  margin: 0;
+  padding: 0;
+  background-color: #A82430;
+  color: #ffffff;
+  position: sticky;
+  top: 0px;
+  height: 4em;
+  width: 70em;
+}
+
+#menueEntete2 {
+  position: sticky;
+  top: 5em;
+}
