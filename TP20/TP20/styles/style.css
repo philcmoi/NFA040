@@ -10,6 +10,7 @@
 .barreHorizontal li {
   float: left;
   background-color: #A82430;
+  position: relative;
 }
 
 .barreHorizontal li a {
@@ -28,6 +29,7 @@
 
   .barreHorizontal2 li {
     float: left;
+    position: relative;
   }
 
   .barreHorizontal2 li a{
@@ -40,7 +42,8 @@
 
   .barreHorizontal #accesDirect:hover {
   #sousMenu {
-      display: block;
+    position: absolute;
+    display: block;
     }
   }
 
