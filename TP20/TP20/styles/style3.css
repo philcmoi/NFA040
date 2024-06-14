@@ -1,19 +1,34 @@
 #tests {
-    position: absolute;
-    top: 10em;
-    bottom: 50em;
-    left:20em;
+    position: relative;
+    left:15em;
     width: 50em;
-    height: 70em;
-    z-index: -1;
-}
-aside {
-    position: sticky;
-    top: 0em;
-    bottom: 50em;
-    left:0em;
-    width: 50em;
-    height: 70em;
-    z-index: 1;
+    z-index: -2;
 }
 
+
+#menueEntete2 {
+    margin: 0;
+    padding: 0;
+    top: 5em;
+    height: 7em;
+    width: 100%;
+  }
+  
+    .barreHorizontal2 {
+      text-align: center;
+      left: 20em; 
+      width: 100%;
+      height: 3em;
+      top: 5em;
+    }
+  
+    .barreHorizontal2 li {
+      float: left;
+      position: relative;
+    }
+  
+    .barreHorizontal2 li a{
+      background-color: #ffffff;
+      color: #A82430;
+      display:block;              
+      min-width: 200px;
