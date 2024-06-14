@@ -63,11 +63,19 @@ aside {
     padding: 0;
     text-align: left;
     background-color: rgb(255, 255, 255);
-    color: #A82430;
+    color: #faf7f7;
 }
 
 .listeChoix a {
   color:#030304
+}
+
+.generalite {
+  position: relative;
+  left: 0em;
+  bottom: 0.5em;
+  color: #fbfbfc;
+  /* background-color: #fbfbfb; */
 }
 
 }
