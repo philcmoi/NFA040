@@ -1,20 +1,45 @@
+#menueEntete {
+  margin: 0;
+  padding: 0;
+  background-color: #A82430;
+  color: #ffffff;
+  position: sticky;
+  top: 0px;
+  height: 4em;
+  width: 70em;
+}
+
+.barreHorizontal #accesDirect:hover {
+  #sousMenu {
+    position: absolute;
+    display: block;
+    }
+  }
 
 .barreHorizontal {
   text-align: left;
   left: 0; 
   width: 100%;
   height: 3em;
-  top: 5em;
+  top: 0em;
   text-align: center;}
 
 .barreHorizontal li {
   float: left;
   background-color: #A82430;
   position: relative;
+  min-width: 13em;
+  left: 0em;
+  
 }
 
 .barreHorizontal li a {
   color:#ffffff;
+}
+
+#menueEntete2 {
+  position: sticky;
+  top: 5em;
 }
 
   .barreHorizontal2 {
@@ -30,6 +55,9 @@
   .barreHorizontal2 li {
     float: left;
     position: relative;
+    min-width: 7em;
+    left: 15em;
+
   }
 
   .barreHorizontal2 li a{
@@ -40,25 +68,6 @@
     display: none;
   }
 
-  .barreHorizontal #accesDirect:hover {
-  #sousMenu {
-    position: absolute;
-    display: block;
-    }
-  }
+  
 
- #menueEntete {
-  margin: 0;
-  padding: 0;
-  background-color: #A82430;
-  color: #ffffff;
-  position: sticky;
-  top: 0px;
-  height: 4em;
-  width: 70em;
-}
 
-#menueEntete2 {
-  position: sticky;
-  top: 5em;
-}
