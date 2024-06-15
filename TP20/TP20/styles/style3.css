@@ -1,7 +1,6 @@
 #tests {
     position: relative;
-    
-    left:20em;
+    left:18em;
     width: 50em;
     z-index: -1;
 }
