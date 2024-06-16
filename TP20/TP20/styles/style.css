@@ -1,9 +1,10 @@
+
 #menueEntete {
+  position: sticky;
   margin: 0;
   padding: 0;
-  background-color: #A82430;
+  background-color: #C1002B;
   color: #ffffff;
-  position: sticky;
   top: 0px;
   height: 4em;
   width: 70em;
@@ -13,77 +14,80 @@
   display: none;
 }
 
-#accesDirect #sousMenu li:hover {
+.barreHorizontal #accesDirect:hover {
+#sousMenu {
+  position: absolute;
+  left: -2em;
+  top: 3em;
+  display: inline;
+  /* background: #ffffff; */
+          }
 
+#sousMenu li {
+  background-color: #ffffff;
+}
 
-  #sousMenu {
-    position: absolute;
-    display: inline-block;
-    min-height: 3em;
-    text-align: left;
-    left: 2em;
-    top: 4em;
-    background-color: antiquewhite;
-      }
+#sousMenu li a{
+  background-color: #ffffff;
+  color: black;
+}
 
-  /* #sousMenu .li {
-    background-color: bisque; */
-  } 
-  
+}
 
 .barreHorizontal {
   text-align: left;
   left: 0; 
   width: 100%;
   height: 3em;
-  top: 0em;
+  top: 5em;
   text-align: center;}
 
 .barreHorizontal li {
-  float: left;
-  background-color: #A82430;
   position: relative;
-  min-width: 13em;
-  left: 0em;
+  float: left;
+  background-color: #C1002B;
+  min-width: 7em;
+  top: 0.5em;
   
 }
 
 .barreHorizontal li a {
   color:#ffffff;
+  position: relative;
+  float: left;
+  background-color: #C1002B;
+  min-width: 7em;
+  top: 0.5em;
 }
 
 #menueEntete2 {
   position: relative;
-  top: 1em;
-  min-width: 5em;
-  z-index: -1;
+  top: 0em;
+  z-index: -2 ;
 }
 
   .barreHorizontal2 {
-    text-align: left;
-    left: 0; 
+    position: absolute;
     width: 100%;
-    height: 3em;
-    top: 5em;
-    }
+    background-color: #ffffff;
+    text-align: center;}
 
   .barreHorizontal2 li {
+    position: absolute;
+    left: 15em;
     float: left;
     position: relative;
-    min-width: 7em;
-    min-height: 2em;
-    left: 15em;
-    background-color: rgb(255, 255, 255);
-
+    min-width: 5em;
+    background-color: #ffffff;
   }
 
   .barreHorizontal2 li a{
-    display: inline-block;
-    color: #A82430;
+  display: inline-block;
+  width: 25%;
+  left: 20em;
+  min-width: 10em;
+  color: #000000;
+  text-align: left;
   }
   
   
-
-  
-
-

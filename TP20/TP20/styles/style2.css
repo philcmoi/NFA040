@@ -12,11 +12,18 @@ aside {
   width: 50 px;
 } 
 
+#box {
+  position:absolute;
+  left: 0em;
+  width: 50px;
+  background-color: #F8F9FA;
+} 
+
 #menuDeroulant {
   position: sticky;
   width: 50 px;
   left: 0px;
-  background-color: #b4bacf;
+  background-color: #F8F9FA;
   top: 10em;
 }
 
@@ -25,15 +32,24 @@ aside {
   width: 50px;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;}
+  background-color: #F8F9FA;}
 
 .sousMenueDeroulant:hover {
   box-sizing: border-box;
   width: 50px;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
-
+  background-color: #F8F9FA;
+  color:white;
+  
+  .generalite {
+    position: relative;
+    left: 0em;
+    bottom: 0.5em;
+    color: #F8F9FA;
+    /* background-color: #fbfbfb; */
+  }
+  
   .fleche {
     display: inline;
     float: left;
@@ -45,8 +61,9 @@ aside {
   }
 
   
-.choixParmis {
-    background-color: #A82430;
+  .choixParmis {
+    background-color: #C1002A;
+    color: #F8F9FA;
     position: relative;
     text-align: left;
     width: 15em;
@@ -62,12 +79,12 @@ aside {
     margin: 0;
     padding: 0;
     text-align: left;
-    background-color: rgb(255, 255, 255);
-    color: #A82430;
+    background-color: #F8F9FA;
+    color: #F8F9FA;
 }
 
 .listeChoix a {
-  color:#030304
+  color:#F8F9FA;
 }
 
 }
@@ -86,7 +103,7 @@ aside {
 }
 
 body {
-  background-color: #f6fafb;
+  /* background-color: #f6fafb; */
 }
 
 .generalite {
@@ -99,7 +116,7 @@ body {
 
 
 .choixParmis {
-  background-color: #ffffff;
+  background-color: #F8F9FA;
   position: relative;
   text-align: left;
   width: 15em;
@@ -110,7 +127,7 @@ body {
 
 
 li {
-  background-color: #fbfbfb;
+  background-color: #F8F9FA;
   margin: 0px;
   padding-top: 7px;
   padding-bottom: 7px;
