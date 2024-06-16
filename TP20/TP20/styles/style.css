@@ -61,27 +61,31 @@
 }
 
 #menueEntete2 {
-  position: sticky;
+  position: relative;
   top: 5em;
+  z-index: -2 ;
 }
 
   .barreHorizontal2 {
-    text-align: left;
-    left: 0; 
+    position: relative;
     width: 100%;
-    height: 3em;
-    top: 5em;
-    text-align: right;
-    /* color: #A82430; */
+    background-color: #F7FAFB;
     text-align: center;}
 
   .barreHorizontal2 li {
+    position: absolute;
+    left: 15em;
     float: left;
     position: relative;
+    min-width: 5em;
+    background-color: #F7FAFB;
   }
 
   .barreHorizontal2 li a{
-    color: #A82430;
+  left: 20em;
+  min-width: 10em;
+  color: #000000;
+  text-align: left;
   }
   
   
