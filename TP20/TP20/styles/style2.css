@@ -40,16 +40,16 @@ aside {
   margin: 0;
   padding: 0;
   background-color: #F8F9FA;
-  color:white;
   
   .generalite {
     position: relative;
     left: 0em;
     bottom: 0.5em;
-    color: #F8F9FA;
+    color: #ffffff;
     /* background-color: #fbfbfb; */
   }
-  
+
+
   .fleche {
     display: inline;
     float: left;
@@ -63,7 +63,6 @@ aside {
   
   .choixParmis {
     background-color: #C1002A;
-    color: #F8F9FA;
     position: relative;
     text-align: left;
     width: 15em;
@@ -80,12 +79,14 @@ aside {
     padding: 0;
     text-align: left;
     background-color: #F8F9FA;
-    color: #F8F9FA;
+    color: #A82430;
 }
 
 .listeChoix a {
-  color:#F8F9FA;
+  color:#000000;
 }
+
+
 
 }
 
