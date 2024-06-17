@@ -1,4 +1,10 @@
 
+#intitule h2 {
+  position: sticky;
+  top: 7em;
+  left: 17em;
+}
+
 #menueEntete {
   position: sticky;
   margin: 0;
@@ -67,13 +73,15 @@
 }
 
   .barreHorizontal2 {
-    position: absolute;
+    position: sticky;
+    left: 0em;
     width: 100%;
     background-color: #ffffff;
-    text-align: center;}
+    text-align: center;
+    top: 10em}
 
   .barreHorizontal2 li {
-    position: absolute;
+    position: relative;
     left: 15em;
     float: left;
     position: relative;
@@ -83,11 +91,40 @@
 
   .barreHorizontal2 li a{
   display: inline-block;
-  width: 25%;
+  text-align: center;
+  width: 8em;
   left: 20em;
-  min-width: 10em;
   color: #000000;
-  text-align: left;
+  text-align: center;
   }
   
+  .barreHorizontal2 .Notes {
+  text-align: center;
+}
+
+/* .barreHorizontal2 a:hover, */
+.barreHorizontal2 .Notes:hover {
+  text-align: center;
+    height: 3em;
+    border: #ffffff;
+    background-color: aliceblue;
+    border-bottom:#000000 solid;
+  }
+
+  .barreHorizontal2 .Cours{
+    text-align: center;
+  }
+
+  .barreHorizontal2 .Cours:hover {
+    text-align: center;
+    height: 3em;
+    border: #ffffff;
+    background-color: aliceblue;
+    border-bottom:#000000 solid;}
   
+    .barreHorizontal2 a:hover {
+      text-align: center;
+      height: 3em;
+      border: #ffffff;
+      background-color: aliceblue;
+      border-bottom:#000000 solid;}
