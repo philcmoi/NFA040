@@ -68,12 +68,13 @@
 
   .barreHorizontal2 {
     position: absolute;
+    left: 0em;
     width: 100%;
     background-color: #ffffff;
     text-align: center;}
 
   .barreHorizontal2 li {
-    position: absolute;
+    position: relative;
     left: 15em;
     float: left;
     position: relative;
@@ -83,22 +84,14 @@
 
   .barreHorizontal2 li a{
   display: inline-block;
+  text-align: center;
   width: 8em;
   left: 20em;
   color: #000000;
-  text-align: left;
+  text-align: center;
   }
   
-  
-/* .barreHorizontal2 a .Cours:hover {
-  border: #000000 solid;
-  border-bottom: #000000 solid;
-} */
-
-.barreHorizontal2  li a {
-  text-align: center;}
-
-.barreHorizontal2 .Notes {
+  .barreHorizontal2 .Notes {
   text-align: center;
 }
 
@@ -122,3 +115,9 @@
     background-color: aliceblue;
     border-bottom:#000000 solid;}
   
+    .barreHorizontal2 a:hover {
+      text-align: center;
+      height: 3em;
+      border: #ffffff;
+      background-color: aliceblue;
+      border-bottom:#000000 solid;}
