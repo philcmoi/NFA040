@@ -1,4 +1,39 @@
 
+#menueEntete {
+  position: sticky;
+  margin: 0;
+  padding: 0;
+  background-color: #C1002B;
+  color: #ffffff;
+  top: 0px;
+  height: 4em;
+  width: 70em;
+}
+
+#sousMenu {
+  display: none;
+}
+
+.barreHorizontal #accesDirect:hover {
+#sousMenu {
+  position: absolute;
+  left: -2em;
+  top: 3em;
+  display: inline;
+  /* background: #ffffff; */
+          }
+
+#sousMenu li {
+  background-color: #ffffff;
+}
+
+#sousMenu li a{
+  background-color: #ffffff;
+  color: black;
+}
+
+}
+
 .barreHorizontal {
   text-align: left;
   left: 0; 
@@ -8,57 +43,82 @@
   text-align: center;}
 
 .barreHorizontal li {
-  float: left;
-  background-color: #A82430;
   position: relative;
+  float: left;
+  background-color: #C1002B;
+  min-width: 7em;
+  top: 0.5em;
+  
 }
 
 .barreHorizontal li a {
   color:#ffffff;
-}
-
-  .barreHorizontal2 {
-    text-align: left;
-    left: 0; 
-    width: 100%;
-    height: 3em;
-    top: 5em;
-    text-align: right;
-    /* color: #A82430; */
-    text-align: center;}
-
-  .barreHorizontal2 li {
-    float: left;
-    position: relative;
-  }
-
-  .barreHorizontal2 li a{
-    color: #A82430;
-  }
-  
-  #sousMenu {
-    display: none;
-  }
-
-  .barreHorizontal #accesDirect:hover {
-  #sousMenu {
-    position: absolute;
-    display: block;
-    }
-  }
-
- #menueEntete {
-  margin: 0;
-  padding: 0;
-  background-color: #A82430;
-  color: #ffffff;
-  position: sticky;
-  top: 0px;
-  height: 4em;
-  width: 70em;
+  position: relative;
+  float: left;
+  background-color: #C1002B;
+  min-width: 7em;
+  top: 0.5em;
 }
 
 #menueEntete2 {
-  position: sticky;
-  top: 5em;
+  position: relative;
+  top: 0em;
+  z-index: -2 ;
 }
+
+  .barreHorizontal2 {
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;}
+
+  .barreHorizontal2 li {
+    position: absolute;
+    left: 15em;
+    float: left;
+    position: relative;
+    min-width: 5em;
+    background-color: #ffffff;
+  }
+
+  .barreHorizontal2 li a{
+  display: inline-block;
+  width: 8em;
+  left: 20em;
+  color: #000000;
+  text-align: left;
+  }
+  
+  
+/* .barreHorizontal2 a .Cours:hover {
+  border: #000000 solid;
+  border-bottom: #000000 solid;
+} */
+
+.barreHorizontal2  li a {
+  text-align: center;}
+
+.barreHorizontal2 .Notes {
+  text-align: center;
+}
+
+/* .barreHorizontal2 a:hover, */
+.barreHorizontal2 .Notes:hover {
+  text-align: center;
+    height: 3em;
+    border: #ffffff;
+    background-color: aliceblue;
+    border-bottom:#000000 solid;
+  }
+
+  .barreHorizontal2 .Cours{
+    text-align: center;
+  }
+
+  .barreHorizontal2 .Cours:hover {
+    text-align: center;
+    height: 3em;
+    border: #ffffff;
+    background-color: aliceblue;
+    border-bottom:#000000 solid;}
+  
