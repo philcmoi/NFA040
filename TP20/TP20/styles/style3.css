@@ -1,10 +1,11 @@
  
   #menuDeroulant2 {
     position: absolute;
+    top: 2em; 
     width: 50 px;
-    left: 20em;
+    left: 0em;
     background-color: #F8F9FA;
-    top: 10em;
+    
   }
   
   .sousMenueDeroulant2 {
@@ -27,9 +28,9 @@
     
     .generalite2 {
       position: relative;
-      left: 20em;
+      left: 0em;
       bottom: 0.5em;
-      color: #ffffff;
+      color: #010101;
       /* background-color: #fbfbfb; */
     }
   
@@ -69,6 +70,8 @@
   .choixParmis2 {
     background-color: #F8F9FA;
     position: relative;
+    left: 0em;
+    top: -5em;
     text-align: left;
     width: 15em;
     height: 3em;
@@ -77,14 +80,6 @@
   }
   
   
-  /* li {
-    background-color: #F8F9FA;
-    margin: 0px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    border: 10px;
-    border-color: rgb(14, 14, 14);
-    border-radius: 5px;
-  } */
+  
   
   

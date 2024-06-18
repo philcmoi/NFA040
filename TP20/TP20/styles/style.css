@@ -122,7 +122,7 @@
     background-color: aliceblue;
     border-bottom:#000000 solid;}
   
-    .barreHorizontal2 a:hover {
+    .barreHorizontal2 li a:hover {
       text-align: center;
       height: 3em;
       border: #ffffff;
