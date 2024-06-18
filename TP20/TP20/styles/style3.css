@@ -1,19 +1,24 @@
-#menuDeroulant2 {
-    position: sticky;
+ 
+  #menuDeroulant2 {
+    position: absolute;
     width: 50 px;
-    left: 22em;
+    left: 20em;
     background-color: #F8F9FA;
     top: 10em;
   }
   
   .sousMenueDeroulant2 {
+    position: absolute;
+    left: 20em;
     box-sizing: border-box;
     width: 50px;
     margin: 0;
     padding: 0;
     background-color: #F8F9FA;}
   
- #menueDeroulan2 .sousMenueDeroulant2:hover {
+  .sousMenueDeroulant2:hover {
+    position: absolute;
+    left: 20em;
     box-sizing: border-box;
     width: 50px;
     margin: 0;
@@ -22,80 +27,46 @@
     
     .generalite2 {
       position: relative;
-      left: 22em;
+      left: 0em;
       bottom: 0.5em;
-      color: #ffffff;
+      color: #010101;
       /* background-color: #fbfbfb; */
     }
   
   
-    .fleche {
+    .fleche21 {
       display: inline;
       float: left;
     }
   
-    .fleche2 {
+    .fleche22 {
       display: none;
       
     }
   
-    
-    .choixParmis {
-      background-color: #C1002A;
-      position: relative;
-      text-align: left;
-      width: 15em;
-      height: 3em;
-      border: 2px;
-      border-radius: 2px;
-    }
-  
-  .listeChoix {
-      display: block;
-      width: 12.2em;
-      left: 27 em;
-      margin: 0;
-      padding: 0;
-      text-align: left;
-      background-color: #F8F9FA;
-      color: #A82430;
-  }
-  
-  .listeChoix a {
-    color:#000000;
-  }
-  
-  
   
   }
   
-  .listeChoix {
+   
+  .fleche21 {
     display: none;
   }
   
-  .fleche {
-    display: none;
-  }
-  
-  .fleche2 {
+  .fleche22 {
     display: inline-block;
     float: left;
   }
   
-  body {
-    /* background-color: #f6fafb; */
-  }
   
   .generalite2 {
     position: relative;
     left: 0em;
     bottom: 0.5em;
     color: #030304;
-    /* background-color: #fbfbfb; */
   }
   
   
-  .choixParmis {
+  .choixParmis2 {
     background-color: #F8F9FA;
     position: relative;
     text-align: left;
@@ -106,13 +77,6 @@
   }
   
   
-  li {
-    background-color: #F8F9FA;
-    margin: 0px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    border: 10px;
-    border-color: rgb(14, 14, 14);
-    border-radius: 5px;
-  }
+  
+  
   
