@@ -1,4 +1,12 @@
-
+.contenat {
+  display:grid;
+  grid-template-areas: "menuEntete"
+                       "titre"
+                       "barreHorizontal2"
+                       "menuDeroulant"
+                       "menuDeroulant2"
+                       "piedPage";
+}
 .titre {
   position: absolute;
   top: 4em;
