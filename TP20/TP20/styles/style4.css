@@ -1,18 +1,19 @@
-/* #textes {
-    position: relative;
-    top: 1em;
-    left:17em;
-    width: 48em;
-    z-index: -1;
+.card {
+    /* height: 5em;
+    width: 5em; */
+    border: 1px solid ;
+    border-color: black;
+    background-color: rgba(254, 144, 1, 0.915);
+    
 }
 
-#texteALternatifs {
-    position: relative;
-    top: 1em;
-    left:17em;
-    width: 48em;
-    z-index: -1;
-} */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: repeat(4,1fr);
+    /* grid-column: 2/4;
+    gap: 20px; */ 
+}
 
 #piedPage {
     position: sticky;
