@@ -1,11 +1,11 @@
 
-#titre {
+.titre {
   position: absolute;
   top: 4em;
   left: 20em;
 }
 
-#menueEntete {
+.menueEntete {
   position: sticky;
   margin: 0;
   padding: 0;
@@ -67,7 +67,7 @@
   top: 0.5em;
 }
 
-#menueEntete2 {
+.menueEntete2 {
   position: relative;
   top: 0em;
   z-index: -2 ;
