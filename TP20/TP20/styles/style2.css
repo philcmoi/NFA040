@@ -12,15 +12,14 @@ aside {
   width: 50 px;
 } 
 
-.box {
+#box {
   position:absolute;
   left: 0em;
   width: 50px;
   background-color: #F8F9FA;
 } 
 
-.menuDeroulant {
-  grid-area: menuDeroulant;
+#menuDeroulant {
   position: sticky;
   width: 50 px;
   left: 0px;
@@ -29,7 +28,6 @@ aside {
 }
 
 .sousMenueDeroulant {
-  grid-area: sousMenuDeroulant;
   box-sizing: border-box;
   width: 50px;
   margin: 0;
@@ -47,8 +45,8 @@ aside {
     position: relative;
     left: 0em;
     bottom: 0.5em;
-    color: #F8F9FA;
-    background-color: #F8F9FA;
+    color: #ffffff;
+    /* background-color: #fbfbfb; */
   }
 
 
