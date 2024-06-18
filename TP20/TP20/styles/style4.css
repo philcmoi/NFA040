@@ -1,5 +1,6 @@
 
 .piedPage {
+    grid-area: piedPage;
     position: sticky;
     bottom: 0px;
     /* top: 100em; */

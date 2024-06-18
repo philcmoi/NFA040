@@ -1,5 +1,6 @@
  
   .menuDeroulant2 {
+    grid-area: menuDeroulant2;
     position: absolute;
     top: 2em; 
     width: 50 px;
@@ -11,6 +12,7 @@
     /* positionnement du menu. */
 
   .sousMenueDeroulant2 {
+    grid-area: sousMenuDeroulant;
     position: relative;
     top: -5em;
     left: 15em;

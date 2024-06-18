@@ -1,11 +1,16 @@
-
+/* .containt {
+  display: grid;
+  grid-template-areas: none;
+} */
 .titre {
+  grid-area:titre;
   position: absolute;
   top: 4em;
   left: 20em;
 }
 
 .menueEntete {
+  grid-area: menuEntete;
   position: sticky;
   margin: 0;
   padding: 0;
@@ -18,6 +23,7 @@
 }
 
 .sousMenu {
+  grid-area: sousMenu;
   display: none;
 }
 
@@ -41,6 +47,7 @@
 }
 
 .barreHorizontal {
+  grid-area: barreHorizontal;
   text-align: left;
   left: 0; 
   width: 100%;
@@ -67,12 +74,14 @@
 }
 
 .menueEntete2 {
+  grid-area: menuEntete;
   position: relative;
   top: 0em;
   z-index: -2 ;
 }
 
   .barreHorizontal2 {
+    grid-area: barreHorizontal2;
     position: absolute;
     top: 8em;
     left: 0em;
