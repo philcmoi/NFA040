@@ -1,7 +1,16 @@
-/* .containt {
+.containt {
   display: grid;
-  grid-template-areas: none;
-} */
+    grid-template-areas:"menuEntete" 
+                        "titre"
+                        "barreHorizontal"
+                        "menuEntete2"
+                        "barreHorizontal2"
+                        "menuDeroulant"
+                        "menuDeroulant2"
+                        "piedPage";
+}
+
+
 .titre {
   grid-area:titre;
   position: absolute;
