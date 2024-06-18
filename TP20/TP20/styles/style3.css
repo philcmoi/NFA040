@@ -1,15 +1,15 @@
  
   #menuDeroulant2 {
-    position: absolute;
-    top: 2em; 
+    position: relative;
     width: 50 px;
-    left: 0em;
+    left: 20em;
     background-color: #F8F9FA;
-    
+    top: 10em;
   }
-  
+ /* Positionnement  */
   .sousMenueDeroulant2 {
-    position: absolute;
+    position: relative;
+    top: -3em;
     left: 20em;
     box-sizing: border-box;
     width: 50px;
@@ -25,7 +25,8 @@
     margin: 0;
     padding: 0;
     background-color: #F8F9FA;
-    
+/* __________________________________*/
+
     .generalite2 {
       position: relative;
       left: 0em;
@@ -70,8 +71,6 @@
   .choixParmis2 {
     background-color: #F8F9FA;
     position: relative;
-    left: 0em;
-    top: -5em;
     text-align: left;
     width: 15em;
     height: 3em;
