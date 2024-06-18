@@ -1,4 +1,4 @@
-#textes {
+/* #textes {
     position: relative;
     top: 1em;
     left:17em;
@@ -12,7 +12,7 @@
     left:17em;
     width: 48em;
     z-index: -1;
-}
+} */
 
 #piedPage {
     position: sticky;
