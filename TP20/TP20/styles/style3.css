@@ -1,24 +1,30 @@
  
-  .menuDeroulant2 {
+  #menuDeroulant2 {
     position: absolute;
+    top: 2em; 
     width: 50 px;
-    left: 20em;
+    left: 0em;
     background-color: #F8F9FA;
-    top: 10em;
+    
   }
-  
+
+    /* positionnement du menu. */
+
   .sousMenueDeroulant2 {
-    position: absolute;
-    left: 20em;
+    position: relative;
+    top: -5em;
+    left: 15em;
     box-sizing: border-box;
     width: 50px;
     margin: 0;
     padding: 0;
-    background-color: #F8F9FA;}
+    background-color: #435261;}
   
+/* //////////////////////// */
+
   .sousMenueDeroulant2:hover {
-    position: absolute;
-    left: 20em;
+    position: relative;
+    left: 15em;
     box-sizing: border-box;
     width: 50px;
     margin: 0;
@@ -67,8 +73,10 @@
   
   
   .choixParmis2 {
-    background-color: #F8F9FA;
     position: relative;
+    background-color: #F8F9FA;
+    left: 0em;
+    top: 0em;
     text-align: left;
     width: 15em;
     height: 3em;
