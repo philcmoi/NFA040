@@ -1,15 +1,16 @@
 .contenant {
     display:grid;
-    grid-template-areas: 
-                         
-                         "piedPage";
   }
 
-@media(max-width:480px) {
+@media only screen and (max-width:480px) {
     .contenant {
-        display:grid;
-        grid-template-areas: "menuDeroulant"
-                             "menuDeroulant2"
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 3fr 1fr;
+        grid-template-areas: "titre"
+                             "entete"
+                             "entete2"
+                             "menuDeroulant"
                              "piedPage";
+                             
       }
 }
