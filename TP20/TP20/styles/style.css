@@ -1,19 +1,13 @@
-.contenat {
-  display:grid;
-  grid-template-areas: "menuEntete"
-                       "titre"
-                       "barreHorizontal2"
-                       "menuDeroulant"
-                       "menuDeroulant2"
-                       "piedPage";
-}
+
 .titre {
+  grid-area: titre;
   position: absolute;
   top: 4em;
   left: 20em;
 }
 
-.menueEntete {
+.entete {
+  grid-area: entete;
   position: sticky;
   margin: 0;
   padding: 0;
@@ -50,6 +44,7 @@
 }
 
 .barreHorizontal {
+  grid-area: barrehorizontal;
   text-align: left;
   left: 0; 
   width: 100%;
@@ -75,13 +70,15 @@
   top: 0.5em;
 }
 
-.menueEntete2 {
+.entete2 {
+  grid-area: entete2;
   position: relative;
   top: 0em;
   z-index: -2 ;
 }
 
   .barreHorizontal2 {
+    grid-area: barrehorizontal2;
     position: absolute;
     top: 8em;
     left: 0em;

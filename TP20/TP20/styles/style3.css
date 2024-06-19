@@ -1,5 +1,6 @@
  
   .menuDeroulant2 {
+    grid-area: menuDeroulant2;
     position: absolute;
     top: 2em; 
     width: 50 px;

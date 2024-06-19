@@ -1,0 +1,15 @@
+.contenant {
+    display:grid;
+    grid-template-areas: 
+                         
+                         "piedPage";
+  }
+
+@media(max-width:480px) {
+    .contenant {
+        display:grid;
+        grid-template-areas: "menuDeroulant"
+                             "menuDeroulant2"
+                             "piedPage";
+      }
+}
