@@ -44,7 +44,7 @@
 }
 
 .barreHorizontal {
-  grid-area: barrehorizontal;
+  grid-area: barreHorizontal;
   text-align: left;
   left: 0; 
   width: 100%;
@@ -78,7 +78,7 @@
 }
 
   .barreHorizontal2 {
-    grid-area: barrehorizontal2;
+    grid-area: barreHorizontal2;
     position: absolute;
     top: 8em;
     left: 0em;
