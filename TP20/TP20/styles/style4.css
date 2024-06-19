@@ -1,27 +1,12 @@
-/* #textes {
-    position: relative;
-    top: 1em;
-    left:17em;
-    width: 48em;
-    z-index: -1;
-}
 
-#texteALternatifs {
-    position: relative;
-    top: 1em;
-    left:17em;
-    width: 48em;
-    z-index: -1;
-} */
-
-#piedPage {
+.piedPage {
     position: sticky;
     bottom: 0px;
     /* top: 100em; */
     z-index: 1;
 }
 
-#piedPage p{
+.piedPage p{
     
     width: 100%;
     height: 3.5em;

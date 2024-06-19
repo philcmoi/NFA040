@@ -1,11 +1,19 @@
-
-#titre {
+.contenat {
+  display:grid;
+  grid-template-areas: "menuEntete"
+                       "titre"
+                       "barreHorizontal2"
+                       "menuDeroulant"
+                       "menuDeroulant2"
+                       "piedPage";
+}
+.titre {
   position: absolute;
   top: 4em;
   left: 20em;
 }
 
-#menueEntete {
+.menueEntete {
   position: sticky;
   margin: 0;
   padding: 0;
@@ -67,7 +75,7 @@
   top: 0.5em;
 }
 
-#menueEntete2 {
+.menueEntete2 {
   position: relative;
   top: 0em;
   z-index: -2 ;
