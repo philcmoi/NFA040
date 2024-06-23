@@ -1,0 +1,130 @@
+
+.titre {
+  position: absolute;
+  top: 4em;
+  left: 20em;
+}
+
+.menueEntete {
+  position: sticky;
+  margin: 0;
+  padding: 0;
+  background-color: #C1002B;
+  color: #ffffff;
+  top: 0px;
+  height: 4em;
+  width: 70em;
+  z-index: 3;
+}
+
+.sousMenu {
+  display: none;
+}
+
+.barreHorizontal #accesDirect:hover {
+.sousMenu {
+  position: absolute;
+  left: -2em;
+  top: 3em;
+  display: inline;
+  /* background: #ffffff; */
+          }
+
+.sousMenu li {
+  background-color: #ffffff;
+}
+
+.sousMenu li a{
+  background-color: #ffffff;
+  color: black;
+}
+
+}
+
+.barreHorizontal {
+  text-align: left;
+  left: 0; 
+  width: 100%;
+  height: 3em;
+  top: 5em;
+  text-align: center;}
+
+.barreHorizontal li {
+  position: relative;
+  float: left;
+  background-color: #C1002B;
+  min-width: 7em;
+  top: 0.5em;
+  
+}
+
+.barreHorizontal li a {
+  color:#ffffff;
+  position: relative;
+  float: left;
+  background-color: #C1002B;
+  min-width: 7em;
+  top: 0.5em;
+}
+
+.menueEntete2 {
+  position: relative;
+  top: 0em;
+  z-index: -2 ;
+}
+
+  .barreHorizontal2 {
+    position: absolute;
+    top: 8em;
+    left: 0em;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;}
+
+  .barreHorizontal2 li {
+    position: relative;
+    left: 15em;
+    float: left;
+    min-width: 5em;
+    background-color: #ffffff;
+  }
+
+  .barreHorizontal2 li a{
+  display: inline-block;
+  text-align: center;
+  width: 8em;
+  left: 20em;
+  color: #000000;
+  text-align: center;
+  }
+  
+  .barreHorizontal2 .Notes {
+  text-align: center;
+}
+
+/* .barreHorizontal2 a:hover, */
+.barreHorizontal2 .Notes:hover {
+  text-align: center;
+    height: 3em;
+    border: #ffffff;
+    background-color: aliceblue;
+    border-bottom:#000000 solid;
+  }
+
+  .barreHorizontal2 .Cours{
+    text-align: center;
+  }
+
+  .barreHorizontal2 .Cours:hover {
+    text-align: center;
+    height: 3em;
+    border: #ffffff;
+    background-color: aliceblue;
+    border-bottom:#000000 solid;}
+  
+    .barreHorizontal2 li a:hover {
+      text-align: center;
+      height: 3em;
+      border: #ffffff;
+      background-color: aliceblue;
+      border-bottom:#000000 solid;}
