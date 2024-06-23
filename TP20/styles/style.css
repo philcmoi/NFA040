@@ -5,7 +5,7 @@
   left: 20em;
 }
 
-.menueEntete {
+.entete {
   position: sticky;
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@
   display: none;
 }
 
-.barreHorizontal #accesDirect:hover {
+.entete #accesDirect:hover {
 .sousMenu {
   position: absolute;
   left: -2em;
@@ -41,7 +41,7 @@
 
 }
 
-.barreHorizontal {
+.entete {
   text-align: left;
   left: 0; 
   width: 100%;
@@ -49,7 +49,7 @@
   top: 5em;
   text-align: center;}
 
-.barreHorizontal li {
+.entete li {
   position: relative;
   float: left;
   background-color: #C1002B;
@@ -58,7 +58,7 @@
   
 }
 
-.barreHorizontal li a {
+.entete li a {
   color:#ffffff;
   position: relative;
   float: left;
@@ -67,13 +67,13 @@
   top: 0.5em;
 }
 
-.menueEntete2 {
+.entete2 {
   position: relative;
   top: 0em;
   z-index: -2 ;
 }
 
-  .barreHorizontal2 {
+  .entete2 {
     position: absolute;
     top: 8em;
     left: 0em;
@@ -81,7 +81,7 @@
     background-color: #ffffff;
     text-align: center;}
 
-  .barreHorizontal2 li {
+  .entete2 li {
     position: relative;
     left: 15em;
     float: left;
@@ -89,7 +89,7 @@
     background-color: #ffffff;
   }
 
-  .barreHorizontal2 li a{
+  .entete2 li a{
   display: inline-block;
   text-align: center;
   width: 8em;
@@ -98,12 +98,12 @@
   text-align: center;
   }
   
-  .barreHorizontal2 .Notes {
+  .entete2 .Notes {
   text-align: center;
 }
 
 /* .barreHorizontal2 a:hover, */
-.barreHorizontal2 .Notes:hover {
+.entete2 .Notes:hover {
   text-align: center;
     height: 3em;
     border: #ffffff;
@@ -111,18 +111,18 @@
     border-bottom:#000000 solid;
   }
 
-  .barreHorizontal2 .Cours{
+  .entete2 .Cours{
     text-align: center;
   }
 
-  .barreHorizontal2 .Cours:hover {
+  .entete2 .Cours:hover {
     text-align: center;
     height: 3em;
     border: #ffffff;
     background-color: aliceblue;
     border-bottom:#000000 solid;}
   
-    .barreHorizontal2 li a:hover {
+    .entete2 li a:hover {
       text-align: center;
       height: 3em;
       border: #ffffff;
