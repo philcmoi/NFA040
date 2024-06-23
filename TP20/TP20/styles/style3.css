@@ -1,17 +1,18 @@
  
   .menuDeroulant2 {
-    position: absolute;
-    top: 2em; 
+    grid-area: menuDeroulant2;
+    position: fixed;
+    /* top: 2em;  */
     width: 50 px;
-    left: 0em;
-    background-color: #F8F9FA;
+    /* left: 0em; */
+    background-color: #2b2d30;
     
   }
 
     /* positionnement du menu. */
 
-  .sousMenueDeroulant2 {
-    position: relative;
+  .sousMenuDeroulant2 {
+    position: fixed;
     top: -5em;
     left: 15em;
     box-sizing: border-box;
@@ -22,7 +23,7 @@
   
 /* //////////////////////// */
 
-  .sousMenueDeroulant2:hover {
+  .sousMenuDeroulant2:hover {
     position: relative;
     left: 15em;
     box-sizing: border-box;

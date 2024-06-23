@@ -1,26 +1,26 @@
-.contenat {
-  display:grid;
-  grid-template-areas: "menuEntete"
-                       "titre"
-                       "barreHorizontal2"
-                       "menuDeroulant"
-                       "menuDeroulant2"
-                       "piedPage";
-}
-.titre {
-  position: absolute;
-  top: 4em;
-  left: 20em;
+* {
+padding: 0;
+margin: 0; 
 }
 
-.menueEntete {
+.titre {
+  grid-area: titre;
+  position: absolute;
+  top: 7em;
+  left: 20em;
+  z-index: 2;
+}
+
+.entete {
+  grid-area: entete;
   position: sticky;
+  align-self: start;
+  top: 0px;
   margin: 0;
   padding: 0;
   background-color: #C1002B;
   color: #ffffff;
-  top: 0px;
-  height: 4em;
+  height: 5em;
   width: 70em;
   z-index: 3;
 }
@@ -33,8 +33,10 @@
 #sousMenu {
   position: absolute;
   left: -2em;
-  top: 3em;
+  top: 2em;
   display: inline;
+  text-align: center;
+  /* border: solid; */
   /* background: #ffffff; */
           }
 
@@ -50,11 +52,12 @@
 }
 
 .barreHorizontal {
+  grid-area: barreHorizontal;
   text-align: left;
   left: 0; 
   width: 100%;
-  height: 3em;
-  top: 5em;
+  height: 4em;
+  top: 4em;
   text-align: center;}
 
 .barreHorizontal li {
@@ -75,19 +78,21 @@
   top: 0.5em;
 }
 
-.menueEntete2 {
-  position: relative;
-  top: 0em;
+.entete2 {
+  grid-area: entete2;
+  position: fixed;
+  top: 7em;
   z-index: -2 ;
 }
 
   .barreHorizontal2 {
-    position: absolute;
-    top: 8em;
-    left: 0em;
+    grid-area: barreHorizontal2;
+    position: relative;
+    top: 3em;
+    left: 3em;
     width: 100%;
     background-color: #ffffff;
-    text-align: center;}
+    text-align: left;}
 
   .barreHorizontal2 li {
     position: relative;
@@ -99,11 +104,13 @@
 
   .barreHorizontal2 li a{
   display: inline-block;
-  text-align: center;
+  text-align: left;
   width: 8em;
   left: 20em;
   color: #000000;
   text-align: center;
+  border: solid 1px;
+  border-bottom: #C1002B;
   }
   
   .barreHorizontal2 .Notes {

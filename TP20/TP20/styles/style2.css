@@ -6,39 +6,24 @@ ul {
   list-style-type: none;
 }
 
-aside {
-  position: sticky;
-  top: 10em; 
-  width: 50 px;
-} 
-
-.box {
-  position:absolute;
-  left: 0em;
-  width: 50px;
-  background-color: #F8F9FA;
-} 
-
 .menuDeroulant {
+  grid-area: menuDeroulant;
   position: sticky;
-  width: 50 px;
-  left: 0px;
-  background-color: #F8F9FA;
+  align-self: start;
+  width: 12em;
   top: 10em;
-}
+  left: -70em;
+  background-color: rgb(255, 0, 0);
+ }
 
-.sousMenueDeroulant {
+.sousMenuDeroulant {
   box-sizing: border-box;
   width: 50px;
-  margin: 0;
-  padding: 0;
-  background-color: #F8F9FA;}
+  background-color: rgb(255, 255, 255)}
 
-.sousMenueDeroulant:hover {
+.sousMenuDeroulant:hover {
   box-sizing: border-box;
   width: 50px;
-  margin: 0;
-  padding: 0;
   background-color: #F8F9FA;
   
   .generalite {
@@ -75,8 +60,6 @@ aside {
     display: block;
     width: 12.2em;
     left: 5 em;
-    margin: 0;
-    padding: 0;
     text-align: left;
     background-color: #F8F9FA;
     color: #A82430;

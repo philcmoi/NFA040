@@ -1,9 +1,12 @@
 
 .piedPage {
+    grid-area: piedPage;
     position: sticky;
-    bottom: 0px;
-    /* top: 100em; */
-    z-index: 1;
+    align-self: start;
+    background-color: #C1002B;
+    /* bottom: 0px; */
+    top: 75em;
+    z-index: 3;
 }
 
 .piedPage p{

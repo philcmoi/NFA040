@@ -1,0 +1,25 @@
+.contenant {
+    display:grid;
+    align-items: baseline;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "entete entete entete"
+                         "titre titre titre"
+                         "entete2 entete2 entete2"
+                         "menueDeroulant menuDeroulant2 menuDeroulan2"
+                         "menueDeroulant menuDeroulant2 menuDeroulan2"
+                         "piedPage piedPage piedPage";
+    }
+
+@media only screen and (max-width:550px) {
+    .contenant {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr 2fr 0.5fr;
+        grid-template-areas: "titre"
+                             "entete"
+                             "entete2"
+                             "menuDeroulant"
+                             "piedPage";
+                             
+      }
+}
