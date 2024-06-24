@@ -1,3 +1,6 @@
+/* body{
+  display: grid;
+} */
 
 .titre {
   position: absolute;
@@ -7,8 +10,6 @@
 
 .entete {
   position: sticky;
-  margin: 0;
-  padding: 0;
   background-color: #C1002B;
   color: #ffffff;
   top: 0px;
@@ -71,10 +72,10 @@
 
   .entete2 {
     position: relative;
-    top: 15em;
+    top: 3em;
     left: 0m;
     width: 100%;
-    background-color: #720606;
+    background-color: #ffffff;
     text-align: left;
   }
 
