@@ -1,0 +1,20 @@
+.container {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "entete entete entete"
+                         "titre titre titre"
+                         "entete2 entete2 entete2"
+                         "menuDeroulant menuDeroulant2 menuDeroulant2"
+                         "menuDeroulant menuDeroulant2 menuDeroulant2"
+                         "piedPage piedPage piedPage";
+
+/* @media(max-width:480px) {
+    .contenant {
+        display:grid;
+        grid-template-areas: "menuDeroulant"
+                             "menuDeroulant2"
+                             "piedPage";
+      }
+} */
+}

@@ -1,0 +1,27 @@
+
+
+.piedPage {
+    grid-area: piedPage;
+    position: absolute;
+    /* top:45em;
+    bottom: 0; */
+}
+
+.piedPage p{
+    
+    width: 100%;
+    height: 4em;
+    color: rgb(255, 255, 255);
+    background-color:#C1002B;
+    
+}
+
+#cnam {
+position: absolute;
+left:18em;
+}
+
+#tweeter {
+position: absolute;
+left:22em;
+}
