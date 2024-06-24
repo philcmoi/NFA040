@@ -1,0 +1,90 @@
+ 
+  .menuDeroulant2 {
+    position: relative;
+    top: 2em; 
+    width: 50 px;
+    left: 15em;
+    background-color: #F8F9FA;
+    
+  }
+
+    /* positionnement du menu. */
+
+  .sousMenuDeroulant2 {
+    position: relative;
+    top: -5em;
+    left: 15em;
+    box-sizing: border-box;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    background-color: #435261;}
+  
+/* //////////////////////// */
+
+  .sousMenuDeroulant2:hover {
+    position: relative;
+    left: 15em;
+    box-sizing: border-box;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FA;
+    
+    .generalite2 {
+      position: relative;
+      left: 0em;
+      bottom: 0.5em;
+      color: #010101;
+      /* background-color: #fbfbfb; */
+    }
+  
+  
+    .fleche21 {
+      display: inline;
+      float: left;
+    }
+  
+    .fleche22 {
+      display: none;
+      
+    }
+  
+  
+  }
+  
+   
+  .fleche21 {
+    display: none;
+  }
+  
+  .fleche22 {
+    display: inline-block;
+    float: left;
+  }
+  
+  
+  .generalite2 {
+    position: relative;
+    left: 0em;
+    bottom: 0.5em;
+    color: #030304;
+  }
+  
+  
+  .choixParmis2 {
+    position: relative;
+    background-color: #F8F9FA;
+    left: 0em;
+    top: 0em;
+    text-align: left;
+    width: 15em;
+    height: 3em;
+    border: 2px;
+    border-radius: 2px;
+  }
+  
+  
+  
+  
+  

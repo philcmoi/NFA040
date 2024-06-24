@@ -1,0 +1,26 @@
+
+
+.piedPage {
+    position: relative;
+    top:12em;
+}
+
+.piedPage p{
+    
+    width: 70em;
+    height: 4em;
+    color: rgb(255, 255, 255);
+    background-color:#C1002B;
+    
+}
+
+#cnam {
+position: absolute;
+left:18em;
+}
+
+#tweeter {
+position: absolute;
+left:22em;
+}
+7

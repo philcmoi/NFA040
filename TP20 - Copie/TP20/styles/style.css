@@ -1,0 +1,126 @@
+
+.titre {
+  position: absolute;
+  top: 5em;
+  left: 15em;
+}
+
+.entete {
+  position: sticky;
+  margin: 0;
+  padding: 0;
+  background-color: #C1002B;
+  color: #ffffff;
+  top: 0px;
+  height: 4em;
+  width: 70em;
+  }
+
+.sousMenu {
+  display: none;
+}
+
+.entete .barreHorizontal #accesDirect:hover {
+.sousMenu {
+  position: absolute;
+  left: -2em;
+  top: 3em;
+  display: inline;
+  }
+
+.sousMenu li {
+  background-color: #ffffff;
+}
+
+.sousMenu li a{
+  background-color: #ffffff;
+  color: black;
+}
+
+}
+
+.entete {
+  position:sticky;
+  text-align: left;
+  left: 0; 
+  width: 70em;
+  height: 5em;
+  top: 0em;
+  background-color: #C1002B;
+  color: #ffffff;
+  z-index: 2;
+  }
+
+.entete li {
+  position: relative;
+  float: left;
+  background-color: #C1002B;
+  min-width: 10em;
+  top: 0.5em;
+  
+}
+
+.entete li a {
+  color:#ffffff;
+  position: relative;
+  float: left;
+  background-color: #C1002B;
+  min-width: 10em;
+  top: 0.5em;
+}
+
+  .entete2 {
+    position: relative;
+    top: 15em;
+    left: 0m;
+    width: 100%;
+    background-color: #720606;
+    text-align: left;
+  }
+
+  .entete2 li {
+    position: relative;
+    left: 15em;
+    float: left;
+    min-width: 5em;
+    background-color: #ffffff;
+  }
+
+  .entete2 li a{
+  display: inline-block;
+  text-align: center;
+  width: 8em;
+  left: 20em;
+  color: #000000;
+  }
+  
+  .entete2 .Notes {
+  text-align: center;
+}
+
+/* .barreHorizontal2 a:hover, */
+.entete2 .Notes:hover {
+  text-align: center;
+    height: 3em;
+    border: #ffffff;
+    background-color: aliceblue;
+    border-bottom:#000000 solid;
+  }
+
+  .entete2 .Cours{
+    text-align: center;
+  }
+
+  .entete2 .Cours:hover {
+    text-align: center;
+    height: 3em;
+    border: #ffffff;
+    background-color: aliceblue;
+    border-bottom:#000000 solid;}
+  
+    .entete2 li a:hover {
+      text-align: center;
+      height: 3em;
+      border: #ffffff;
+      background-color: aliceblue;
+      border-bottom:#000000 solid;}
