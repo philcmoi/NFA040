@@ -24,6 +24,8 @@ ul {
   background-color: #F8F9FA;}
 /* -------------------------------------------------------*/
 .sousMenuDeroulant:hover {
+  position: relative;
+  top: 0em;
   box-sizing: border-box;
   width: 50px;
   margin: 0;
