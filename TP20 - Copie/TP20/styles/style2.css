@@ -7,18 +7,21 @@ ul {
 }
 
 .menuDeroulant {
-  position: sticky;
-  width: 50 px;
+  grid-area: menuDeroulant;
+  /* position: sticky;
+  width: 30 px;
   left: 0px;
-  background-color: #faf8f8;
   top: 13em;
+  bottom: 61px; */
+  background-color: #faf8f8;
+
 }
 /* --------------- changement taille  -------------------*/
 .sousMenuDeroulant {
   position: relative;
   top: 0em;
   box-sizing: border-box;
-  width: 25px;
+  width: 30px;
   margin: 0;
   padding: 0;
   background-color: #F8F9FA;}
@@ -27,7 +30,7 @@ ul {
   position: relative;
   top: 0em;
   box-sizing: border-box;
-  width: 50px;
+  width: 30x;
   margin: 0;
   padding: 0;
   background-color: #F8F9FA;

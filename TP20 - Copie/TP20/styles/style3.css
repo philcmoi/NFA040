@@ -1,9 +1,10 @@
  
   .menuDeroulant2 {
-    position: relative;
+    grid-area: menuDeroulant;
+    /* position: relative;
     top: 2em; 
-    width: 50 px;
-    left: 15em;
+    width: 30px;
+    left: 15em; */
     background-color: #F8F9FA;
     
   }
@@ -15,7 +16,7 @@
     top: -10em;
     left: 0em;
     box-sizing: border-box;
-    width: 50px;
+    width: 30px;
     margin: 0;
     padding: 0;
     background-color: #435261;}
@@ -26,7 +27,7 @@
     position: relative;
     left: 0em;
     box-sizing: border-box;
-    width: 50px;
+    width: 30px;
     margin: 0;
     padding: 0;
     background-color: #F8F9FA;

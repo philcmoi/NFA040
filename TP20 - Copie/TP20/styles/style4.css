@@ -1,13 +1,14 @@
 
 
 .piedPage {
-    position: relative;
-    top:12em;
+    grid-area: piedPage;
+    /* position: relative;
+    top:12em; */
 }
 
 .piedPage p{
     
-    width: 70em;
+    width: 100%;
     height: 4em;
     color: rgb(255, 255, 255);
     background-color:#C1002B;
