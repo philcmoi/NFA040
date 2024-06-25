@@ -2,8 +2,10 @@
 
 .piedPage {
     grid-area: piedPage;
-    position: relative;
-    top:12em;
+    grid-column: 1/5;
+    grid-row: 6/7;
+    /* position: relative;
+    top:12em; */
 }
 
 .piedPage p{

@@ -1,15 +1,22 @@
-.contenant {
+.container {
     display:grid;
-    grid-template-areas: 
-                         
-                         "piedPage";
+    grid-template-columns: repeat(4, 1fr) minmax(100px, 200px);
+    grid-template-rows: repeat(9, 1fr) minmax(50px,450px);
+    grid-template-areas: "entete entete entete entete"
+                         "titre titre titre titre"
+                         "titre titre titre titre"
+                         "entete2 entete2 entete2 entete2"
+                         "entete2 entete2 entete2 entete2"
+                         "menuDeroulant menuDeroulant menuDeroulant2 menuDeroulant2"
+                         "menuDeroulant menuDeroulant menuDeroulant2 menuDeroulant2"
+                         "piedPage piedPage piedPage piedPage";
   }
 
-@media(max-width:480px) {
+/* @media(max-width:480px) {
     .contenant {
         display:grid;
         grid-template-areas: "menuDeroulant"
                              "menuDeroulant2"
                              "piedPage";
-      }
-}
+      } */
+/* } */

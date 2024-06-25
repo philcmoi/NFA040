@@ -1,22 +1,28 @@
-/* body{
-  display: grid;
-} */
+.container {
+display: grid;
+}
 
 .titre {
-  position: absolute;
+  grid-area: titre;
+  grid-column: 1/5;
+  grid-row: 3/3;
+  /* position: absolute;
   top: 5em;
-  left: 15em;
+  left: 15em; */
 }
 .entete {
-  position:sticky;
+  grid-area: entete;
+  grid-column: 1/5;
+  grid-row: 1/2;
+  /* position:sticky;
   text-align: left;
   left: 0; 
   width: 100%;
   height: 5em;
-  top: 0em;
+  top: 0em; */
   background-color: #C1002B;
   color: #ffffff;
-  z-index: 2;
+  /* z-index: 2; */
   }
 
 .entete li {
@@ -66,10 +72,12 @@
 
   .entete2 {
     grid-area: entete2;
-    position: relative;
+    grid-column: 1/5;
+    grid-row: 2/4;
+    /* position: relative;
     top: 3em;
     left: 0m;
-    width: 100%;
+    width: 100%; */
     background-color: #ffffff;
     text-align: left;
   }
