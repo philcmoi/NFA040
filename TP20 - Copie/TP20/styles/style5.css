@@ -1,20 +1,25 @@
 .container {
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-areas: "entete entete entete"
-                         "titre titre titre"
-                         "entete2 entete2 entete2"
-                         "menuDeroulant menuDeroulant menuDeroulant"
-                         "menuDeroulant menuDeroulant menuDeroulant"
-                         "piedPage piedPage piedPage";
+    grid-template-columns: repeat(4, 1fr) minmax(100px, 200px);
+    grid-template-rows: repeat(10, 1fr) minmax(50px,450px);
+    grid-template-areas: "entete entete entete entete"
+                         "titre titre titre titre"
+                         "titre titre titre titre"
+                         "entete2 entete2 entete2 entete2"
+                         "entete2 entete2 entete2 entete2"
+                         "menuDeroulant menuDeroulant menuDeroulant2 menuDeroulant2"
+                         "menuDeroulant menuDeroulant menuDeroulant2 menuDeroulant2"
+                         "menuDeroulant menuDeroulant menuDeroulant2 menuDeroulant2"
+                         "piedPage piedPage piedPage piedPage"
+                         "piedPage piedPage piedPage piedPage";
+                         
   }
 
-/* @media(max-width:480px) {
-    .contenant {
+@media(max-width:480px) {
+    .container {
         display:grid;
-        grid-template-areas: "menuDeroulant"
+        grid-template-areas: "entete"
                              "menuDeroulant2"
                              "piedPage";
-      } */
-/* } */
+      }
+    }
