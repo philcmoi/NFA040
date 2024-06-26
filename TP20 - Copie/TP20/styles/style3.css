@@ -21,7 +21,8 @@
     width: 30px;
     margin: 0;
     padding: 0;
-    background-color: #435261;}
+    background-color:#F8F9FA
+  }
   
 /* //////////////////////// */
 
@@ -38,7 +39,7 @@
       position: relative;
       left: 0em;
       bottom: 0.5em;
-      color: #010101;
+      color: #F8F9FA;
       /* background-color: #fbfbfb; */
     }
   
