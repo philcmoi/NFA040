@@ -2,8 +2,11 @@
 
 .piedPage {
     grid-area: piedPage;
-    grid-column: 1/5;
+    grid-column: 1/6;
     grid-row: 6/7;
+    align-self: start;
+    position: sticky;
+    top: 265rem;
     /* position: relative;
     top:12em; */
 }
@@ -26,4 +29,3 @@ left:18em;
 position: absolute;
 left:22em;
 }
-7
