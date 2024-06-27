@@ -2,7 +2,7 @@
 
 .contenu {
     grid-area: contenu;
-    grid-column: 3/4;
+    grid-column: 3/5;
     grid-row: 4/6;
 }
 
