@@ -8,12 +8,14 @@ ul {
 
 .menuDeroulant {
   grid-area: menuDeroulant;
+  grid-column: 1/3;
+  grid-row: 3/5;
+  align-self: start;
   position: sticky;
-  width: 30 px;
-  /* top: 35em;
-  left: 0px; */
-  background-color: #faf8f8;
-    /* bottom: 61px; */
+  top: 15rem;  
+  width: 30px;
+  background-color:#F8F9FA;
+
 }
 /* --------------- changement taille  -------------------*/
 .sousMenuDeroulant {
@@ -38,7 +40,7 @@ ul {
     position: relative;
     left: 0em;
     bottom: 0.5em;
-    color: #ffffff;
+    color: #F8F9FA;
     /* background-color: #fbfbfb; */
   }
 
