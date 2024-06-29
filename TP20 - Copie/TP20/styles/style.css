@@ -1,5 +1,7 @@
 .container {
 display: grid;
+background-color: #F8F9FA;
+
 }
 
 .titre {
@@ -13,17 +15,13 @@ display: grid;
 }
 .entete {
   grid-area: entete;
-  grid-column: 1/5;
+  grid-column: 1/6;
   grid-row: 1/2;
-  /* position:sticky;
-  text-align: left;
-  left: 0; 
-  width: 100%;
-  height: 5em;
-  top: 0em; */
+  position: sticky;
+  top: 0;
   background-color: #C1002B;
   color: #ffffff;
-  /* z-index: 2; */
+  z-index: 3;
   }
 
 .entete li {
@@ -53,25 +51,24 @@ display: grid;
 .sousMenu {
   position: absolute;
   left: -5em;
-  top: 3em;
+  top: 2em;
   display: inline;
   text-align: center;
   }
 
 .sousMenu li {
-  background-color: #b4d7fa;
+  background-color: #F8F9FA;
 }
 
 .sousMenu li a{
-  background-color: #b4d7fa;
+  background-color: #F8F9FA;
   color: black;
 }
 
 }
 
 
-
-  .entete2 {
+.entete2 {
     grid-area: entete2;
     grid-column: 1/5;
     grid-row: 3/5;
@@ -79,7 +76,7 @@ display: grid;
     top: 3em;
     left: 0m;
     width: 100%; */
-    background-color: #ffffff;
+    background-color: #F8F9FA;
     text-align: left;
   }
 
@@ -88,7 +85,7 @@ display: grid;
     left: 15em;
     float: left;
     min-width: 5em;
-    background-color: #ffffff;
+    background-color: #F8F9FA;
   }
 
   .entete2 li a{
@@ -97,6 +94,7 @@ display: grid;
   width: 8em;
   left: 20em;
   color: #000000;
+  background-color: #F8F9FA;
   }
   
   .entete2 .Notes {
@@ -112,18 +110,21 @@ display: grid;
     border-bottom:#000000 solid;
   }
 
-  .entete2 .Cours{
+  .entete2 .coursTemplate{
     text-align: center;
   }
 
-  .entete2 .Cours:hover {
+  .entete2 .barreHorizontal2 .coursTemplate:hover {
     text-align: center;
     height: 3em;
     border: #ffffff;
-    background-color: aliceblue;
-    border-bottom:#000000 solid;}
-  
-    .entete2 li a:hover {
+    background-color:green;
+    border-bottom:#ff0000 solid;
+    .cours {display: inline-block;} 
+  }
+  .entete2 .barreHorizontal2 .coursTemplate .cours {display: none;}
+  /* .entete2 .barreHorizontal2 .coursTemplate .cours :hover  {display: inline-block;} */
+  .entete2 li a:hover {
       text-align: center;
       height: 3em;
       border: #ffffff;
