@@ -12,13 +12,9 @@ ul {
   grid-row: 3/5;
   align-self: start;
   position: sticky;
-  top: 15rem;
-  /* position: sticky;
-  width: 30 px;
-  left: 0px;
-  top: 13em;
-  bottom: 61px; */
-  background-color: #F8F9FA;
+  top: 15rem;  
+  width: 30px;
+  background-color:#F8F9FA;
 
 }
 /* --------------- changement taille  -------------------*/
@@ -44,7 +40,7 @@ ul {
     position: relative;
     left: 0em;
     bottom: 0.5em;
-    color: ##F8F9FA;
+    color: #F8F9FA;
     /* background-color: #fbfbfb; */
   }
 
@@ -85,7 +81,7 @@ ul {
   color:#000000;
 }
 
-
+.contenu {display: block;};
 
 }
 
