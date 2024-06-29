@@ -1,5 +1,22 @@
-/* .contenu {display: none;}; */
-
-.sousMenuDeroulant2 .generaliterelle :hover {
-.contenu {display: inline-block;}
+.cours{ 
+    grid-area : cours;
+    grid-column: 4/7;
+    grid-row: 8/9;
+    text-align: left;
+    background-color: #047df6;
+    z-index: 2;
 }
+
+
+.contenu {display: none;};
+
+
+.contenu {
+    grid-area: contenu;
+    grid-column: 4/7;
+    grid-row: 8/9;
+    text-align: left;
+    background-color: #047df6;
+    z-index: 2;
+}
+
