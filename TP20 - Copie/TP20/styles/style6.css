@@ -32,3 +32,9 @@ modal_content {
   border: 4px;
   position: relative;
 }
+
+#content {
+  position:absolute;
+  top:18em;
+  left:15em;
+}
