@@ -1,15 +1,22 @@
-/* .contenu {display: none;}; */
+.cours{ 
+    grid-area : cours;
+    grid-column: 4/7;
+    grid-row: 8/9;
+    text-align: left;
+    background-color: #047df6;
+    z-index: 2;
+}
+
+
+.contenu {display: none;};
+
 
 .contenu {
     grid-area: contenu;
-    grid-column: 3/5;
-    grid-row: 4/6;
+    grid-column: 4/7;
+    grid-row: 8/9;
+    text-align: left;
+    background-color: #047df6;
+    z-index: 2;
 }
 
-.menuDeroulant .sousMenuDeroulant .generaliteMain:hover {
-    .contenu {display: inline-block;}
-    }
-
-.menuDeroulant2 .sousMenuDeroulant2 .generaliteMain:hover {
-    .contenu {display: inline-block;}
-}
