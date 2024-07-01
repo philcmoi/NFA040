@@ -68,14 +68,12 @@ background-color: #F8F9FA;
 }
 
 
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+
 .entete2 {
     grid-area: entete2;
     grid-column: 1/5;
     grid-row: 3/5;
-    /* position: relative;
-    top: 3em;
-    left: 0m;
-    width: 100%; */
     background-color: #F8F9FA;
     text-align: left;
   }
@@ -97,38 +95,41 @@ background-color: #F8F9FA;
   background-color: #F8F9FA;
   }
   
-  .entete2 .Notes {
-  text-align: center;
-}
-
-/* .barreHorizontal2 a:hover, */
-.entete2 .Notes:hover {
-  text-align: center;
-    height: 3em;
-    border: #ffffff;
-    background-color: aliceblue;
-    border-bottom:#000000 solid;
-  }
+  
+/* //////////////////////////////////////////////////////////////////////////////////// */
 
   .entete2 .coursTemplate{
     text-align: center;
   }
 
-  .entete2 .coursTemplate:hover {
+  .entete2 .barreHorizontal2 .coursTemplate:hover {
     text-align: center;
     height: 3em;
     border: #ffffff;
-    background-color: rgb(239, 11, 11);
-    border-bottom:#000000 solid;
-    .cours {
-      display: block;
-    }
+    background-color:#F8F9FA;
+    border-bottom:#ff0000 solid;
+    .cours {display: inline-block;} 
+     }
+
   
-  }
-  
-  .entete2 li a:hover {
-      text-align: center;
-      height: 3em;
-      border: #ffffff;
-      background-color: aliceblue;
-      border-bottom:#000000 solid;}
+
+  .entete2 .barreHorizontal2 .coursTemplate .cours {display: none;}
+ 
+
+
+      /* //////////////////////////////////////////// */
+
+      .entete2 .notesTemplate{
+        text-align: center;
+      }
+    
+       .entete2 .barreHorizontal2 .notesTemplate:hover {
+        text-align: center;
+        height: 3em;
+        border: #ffffff;
+        background-color:#F8F9FA;
+        border-bottom:#ff0000 solid;
+        .contenu {display: inline-block;} 
+      }
+      .entete2 .barreHorizontal2 .notesTemplate .contenu {display: none;} */
+     
