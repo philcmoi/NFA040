@@ -13,10 +13,16 @@
 
 .contenu {
     grid-area: contenu;
-    grid-column: 4/7;
-    grid-row: 8/9;
+    grid-column: 2/6;
+    grid-row: 4/7;
     text-align: left;
     background-color: #047df6;
     z-index: 2;
+}
+
+.contenu2 {
+    grid-area: contenu2;
+    grid-column: 3/8;
+    grid-row: 4/7;
 }
 
