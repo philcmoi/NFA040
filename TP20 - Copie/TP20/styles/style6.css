@@ -1,25 +1,150 @@
-.container {
-    display:grid;
-    grid-template-columns: repeat(4, 1fr) minmax(100px, 200px);
-    grid-template-rows: repeat(10, 1fr) minmax(50px,450px);
-    grid-template-areas: "entete entete entete entete"
-                         "titre titre titre titre"
-                         "titre titre titre titre"
-                         "entete2 entete2 entete2 entete2"
-                         "entete2 entete2 entete2 entete2"
-                         "menuDeroulant menuDeroulant menuDeroulant2 menuDeroulant2"
-                         "menuDeroulant menuDeroulant menuDeroulant2 menuDeroulant2"
-                         "menuDeroulant menuDeroulant menuDeroulant2 menuDeroulant2"
-                         "piedPage piedPage piedPage piedPage"
-                         "piedPage piedPage piedPage piedPage";
-                         
+ 
+  /* .menuDeroulant2 {
+    grid-area: menuDeroulant2;
+    grid-column: 2/5;
+    grid-row: 6/8;
+    background-color: #F8F9FA;
+  
+  } */
+
+  .general{
+    grid-area: general;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background-color: #4087ce;
   }
 
-@media(max-width:480px) {
-    .container {
-        display:grid;
-        grid-template-areas: "entete"
-                             "menuDeroulant2"
-                             "piedPage";
-      }
+ 
+  .supports {
+    grid-area: supports;
+    grid-column: 2/3;
+    grid-row:8/9;
+    background-color: #15a774;
+  }
+
+  
+
+/* //////////////////////// */
+
+.sousMenuDeroulant2 .sousMenu1:hover {
+    position: relative;
+    left: 0em;
+    box-sizing: border-box;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    background-color: #0075f3;
+    
+    .generalite2 {
+      position: relative;
+      left: 0em;
+      bottom: 0.5em;
+      color: #000000;
+      /* background-color: #fbfbfb; */
     }
+  
+  
+    .fleche21 {
+      display: inline;
+      float: left;
+    }
+  
+    .fleche22 {
+      display: none;
+      
+    }
+  
+    .cours {
+      display: inline;
+    }
+  
+    .contenu {display: block;};
+
+    /* .contenu2 {display: block;}; */
+}
+
+.sousMenuDeroulant2 .sousMenu2:hover {
+  position: relative;
+  left: 0em;
+  box-sizing: border-box;
+  width: 30px;
+  margin: 0;
+  padding: 0;
+  background-color: #d73016;
+  
+  .generalite2 {
+    position: relative;
+    left: 0em;
+    bottom: 0.5em;
+    color: #000000;
+    /* background-color: #fbfbfb; */
+  }
+
+
+  .fleche21 {
+    display: inline;
+    float: left;
+  }
+
+  .fleche22 {
+    display: none;
+    
+  }
+
+  .cours {
+    display: inline;
+  }
+
+  /* .contenu {display: block;}; */
+
+  .contenu2 {display: block;};
+}
+    
+/* .contenu {display: none;} 
+.contenu2 {display: none;}  */
+
+
+  .fleche21 {
+    display: none;
+  }
+  
+  .fleche22 {
+    display: inline-block;
+    float: left;
+  }
+  
+  
+  .generalite2 {
+    position: relative;
+    left: 0em;
+    bottom: 0.5em;
+    color: #030304;
+  }
+  
+  
+  .choixParmis2 {
+    position: relative;
+    background-color: #F8F9FA;
+    left: 0em;
+    top: 0em;
+    text-align: left;
+    width: 15em;
+    height: 3em;
+    border: 2px;
+    border-radius: 2px;
+  }
+
+  .sousMenuDeroulant1er{
+    grid-area: sousMenuDeroulant1er;
+    grid-column: 2/3;
+    grid-row: 2/4;
+  }
+  
+  
+  .sousMenuDeroulant2iem {
+    grid-area: sousMenuDeroulant2iem;
+    grid-column: 2/3;
+    grid-row: 4/2;
+  }
+  
+  

@@ -82,8 +82,9 @@ ul {
 }
 
 .contenu {display: block;};
-
+.contenu2 {display: block;} 
 }
+
 
 .listeChoix {
   display: none;
@@ -96,10 +97,6 @@ ul {
 .fleche2 {
   display: inline-block;
   float: left;
-}
-
-body {
-  /* background-color: #f6fafb; */
 }
 
 .generalite {
