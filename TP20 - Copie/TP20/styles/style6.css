@@ -1,34 +1,48 @@
-modal:target {
-  visibility: visible;
-  opacity: 1;
-}
+  .general{
+    grid-area: general;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background-color: #F8F9FA;
+  }
 
-.modal {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: aqua;
-  justify-content: center;
-  align-items: center;
-}
+ 
+  .supports {
+    grid-area: supports;
+    grid-column: 2/3;
+    grid-row:8/9;
+    background-color: #F8F9FA;
+  }
 
-modal_close {
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  text-decoration: none;
-  color: green;
-}
+  .fleche21 {
+    display: none;
+  }
+  
+  .fleche22 {
+    display: inline-block;
+    float: left;
+  }
+  
+  
+  .generalite2 {
+    position: relative;
+    left: 0em;
+    bottom: 0.5em;
+    color: #030304;
+  }
+  
+  
+  .choixParmis2 {
+    position: relative;
+    background-color: #F8F9FA;
+    left: 0em;
+    top: 0em;
+    text-align: left;
+    width: 15em;
+    height: 3em;
+    border: 2px;
+    border-radius: 2px;
+  }
 
-modal_content {
-  background-color: white;
-  padding: 1.5em 2em;
-  width: 500px;
-  max-width: 90%;
-  border: 4px;
-  position: relative;
-}
+
+  
+  

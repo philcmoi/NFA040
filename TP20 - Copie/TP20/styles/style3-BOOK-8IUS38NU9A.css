@@ -19,7 +19,9 @@
       
     }
   
-
+    /* .cours {
+      display: inline;
+    } */
   
     .contenu {display: block;};
 
@@ -44,6 +46,9 @@
     
   }
 
+  .cours {
+    display: inline;
+  }
 
   .contenu2 {display: block;};
 
