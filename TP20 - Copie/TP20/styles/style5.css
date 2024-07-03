@@ -1,22 +1,41 @@
-.cours{ 
+/* .cours{ 
     grid-area : cours;
     grid-column: 4/7;
     grid-row: 8/9;
     text-align: left;
     background-color: #047df6;
     z-index: 2;
-}
-
-
-.contenu {display: none;};
+} */
 
 
 .contenu {
     grid-area: contenu;
-    grid-column: 4/7;
-    grid-row: 8/9;
-    text-align: left;
-    background-color: #047df6;
-    z-index: 2;
+    grid-column: 2/8;
+    grid-row: 5/8;
+    /* z-index: 2; */
+    background-color: #F8F9FA;
 }
 
+.contenu2{
+    grid-area: contenu2;
+    grid-column: 2/8;
+    grid-row: 8/11;
+    /* z-index: 2; */
+    background-color: #F8F9FA;
+}
+
+.contenu.divers:hover  ul {
+    display: inline-block;
+}
+
+.contenu2 .divers:hover ul {
+    display: inline-block;
+}
+
+.contenu {
+    display: none;
+}
+
+.contenu2 {
+    display: none;
+}
