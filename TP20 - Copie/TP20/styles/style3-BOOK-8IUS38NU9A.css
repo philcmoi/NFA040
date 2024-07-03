@@ -1,12 +1,6 @@
-.contenu {display: none;}
-.contenu2 {display: none;}
 
 
-.general:hover {
-    
-
-    /* background-color: green; */
-    
+  .general:hover {
     .generalite2 {
       position: relative;
       left: 0em;
@@ -25,16 +19,15 @@
       
     }
   
-
+    /* .cours {
+      display: inline;
+    } */
   
-    .contenu {display: inline-block;};
+    .contenu {display: block;};
 
 }
     
 .supports:hover {
-  
-  /* background-color: aqua; */
-  
   .generalite2 {
     position: relative;
     left: 0em;
@@ -53,8 +46,11 @@
     
   }
 
+  .cours {
+    display: inline;
+  }
 
-  .contenu2 {display: inline-block;};
+  .contenu2 {display: block;};
 
 }  
   
