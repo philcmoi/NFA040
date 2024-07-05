@@ -19,7 +19,7 @@
     .container {
         display:grid;
         grid-template-areas: "entete"
-                             "menuDeroulant2"
+                             "menuDeroulant"
                              "piedPage";
       }
     }

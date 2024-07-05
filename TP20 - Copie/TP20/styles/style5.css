@@ -1,7 +1,7 @@
 .contenu {
     grid-area: contenu;
     grid-column: 2/4;
-    grid-row: 5/7;
+    grid-row: 4/6;
     background-color: #F8F9FA;
 }
 

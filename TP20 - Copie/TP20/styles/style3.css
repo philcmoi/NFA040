@@ -1,6 +1,12 @@
+.contenu {display: none;}
+.contenu2 {display: none;}
 
 
-  .general:hover {
+.general:active {
+    
+
+    /* background-color: green; */
+    
     .generalite2 {
       position: relative;
       left: 0em;
@@ -21,11 +27,15 @@
   
 
   
-    .contenu {display: block;};
+    .contenu {display: inline-block;};
+    .supports {display: none;};
 
 }
     
-.supports:hover {
+.supports:active {
+  
+  /* background-color: aqua; */
+  
   .generalite2 {
     position: relative;
     left: 0em;
@@ -45,7 +55,7 @@
   }
 
 
-  .contenu2 {display: block;};
+  .contenu2 {display: inline-block;};
 
 }  
   
