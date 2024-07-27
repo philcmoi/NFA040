@@ -1,0 +1,2 @@
+default: #B10020
+hover: #600014

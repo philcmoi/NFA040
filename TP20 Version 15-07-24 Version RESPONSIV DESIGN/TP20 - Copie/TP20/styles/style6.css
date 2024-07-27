@@ -1,0 +1,48 @@
+  .general{
+    grid-area: general;
+    grid-column: 2/7;
+    grid-row: 4/10;
+    background-color: #F8F9FA;
+  }
+
+ 
+  .supports {
+    grid-area: supports;
+    grid-column: 2/7;
+    grid-row:5/12;
+    background-color: #F8F9FA;
+  }
+
+  .fleche21 {
+    display: none;
+  }
+  
+  .fleche22 {
+    display: inline-block;
+    float: left;
+  }
+  
+  
+  .generalite2 {
+    position: relative;
+    left: 0em;
+    bottom: 0.5em;
+    color: #030304;
+  }
+  
+  
+  .choixParmis2 {
+    position: relative;
+    background-color: #F8F9FA;
+    left: 0em;
+    top: 0em;
+    text-align: left;
+    width: 15em;
+    height: 3em;
+    border: 2px;
+    border-radius: 2px;
+  }
+
+
+  
+  
