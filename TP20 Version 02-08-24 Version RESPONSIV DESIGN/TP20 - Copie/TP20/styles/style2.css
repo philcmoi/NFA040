@@ -1,0 +1,121 @@
+p {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menuDeroulant {
+  grid-area: menuDeroulant;
+  grid-column: 1/3;
+  grid-row: 3/5;
+  /* align-self: start; */
+  position: sticky;
+  top: 15rem;
+  width: 30px;
+  background-color: #f8f9fa;
+}
+/* --------------- changement taille  -------------------*/
+.sousMenuDeroulant {
+  position: relative;
+  top: 0em;
+  box-sizing: border-box;
+  width: 30px;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+/* -------------------------------------------------------*/
+.sousMenuDeroulant:hover {
+  position: relative;
+  top: 0em;
+  box-sizing: border-box;
+  width: 30x;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+
+  .generalite {
+    position: relative;
+    left: 0em;
+    bottom: 0.5em;
+    color: #f8f9fa;
+    /* background-color: #fbfbfb; */
+  }
+
+  .fleche {
+    display: inline;
+    float: left;
+  }
+
+  .fleche2 {
+    display: none;
+  }
+
+  .choixParmis {
+    background-color: #c1002a;
+    position: relative;
+    text-align: left;
+    width: 15em;
+    height: 3em;
+    border: 2px;
+    border-radius: 2px;
+  }
+
+  .listeChoix {
+    display: block;
+    width: 12.2em;
+    height: 0.15em;
+    left: 5 em;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: #f8f9fa;
+    color: #a82430;
+  }
+
+  .listeChoix a {
+    color: #000000;
+  }
+}
+
+.listeChoix {
+  display: none;
+}
+
+.fleche {
+  display: none;
+}
+
+.fleche2 {
+  display: inline-block;
+  float: left;
+}
+
+.generalite {
+  position: relative;
+  left: 0em;
+  bottom: 0.5em;
+  color: #030304;
+}
+
+.choixParmis {
+  background-color: #f8f9fa;
+  position: relative;
+  text-align: left;
+  width: 15em;
+  height: 3em;
+  border: 2px;
+  border-radius: 2px;
+}
+
+li {
+  background-color: #f8f9fa;
+  margin: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 10px;
+  border-color: rgb(14, 14, 14);
+  border-radius: 5px;
+}
